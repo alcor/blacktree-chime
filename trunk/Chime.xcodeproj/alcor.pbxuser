@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ChimeAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1216, 746}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 526}";
+			sepNavWindowFrame = "{{19, 1}, {803, 1022}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ChimeAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1286, 3809}}";
+			sepNavSelRange = "{8294, 0}";
+			sepNavVisRange = "{2717, 2302}";
+			sepNavWindowFrame = "{{19, 81}, {920, 942}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Chime */ = {
+		activeExec = 0;
+		executables = (
+			7F10F32012D139470082EBCB /* Chime */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* ChimeViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {584, 778}}";
+			sepNavSelRange = "{821, 41}";
+			sepNavVisRange = "{0, 868}";
+			sepNavWindowFrame = "{{512, 47}, {1144, 714}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* ChimeViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 2561}}";
+			sepNavSelRange = "{550, 0}";
+			sepNavVisRange = "{4283, 1665}";
+			sepNavWindowFrame = "{{82, 0}, {803, 1022}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = 7F10F32012D139470082EBCB /* Chime */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Chime */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Chime */,
+		);
+		codeSenseManager = 7F10F33412D139670082EBCB /* Code sense */;
+		executables = (
+			7F10F32012D139470082EBCB /* Chime */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					765,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					292,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					627.20849609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					647,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317597624;
+			PBXWorkspaceStateSaveDate = 317597624;
+		};
+		perUserProjectItems = {
+			7F10F3CC12D156A80082EBCB = 7F10F3CC12D156A80082EBCB /* PBXTextBookmark */;
+			7F4B561812E5685B009E9BAC = 7F4B561812E5685B009E9BAC /* PBXBookmark */;
+			7F4B565F12E5FCF8009E9BAC = 7F4B565F12E5FCF8009E9BAC /* PlistBookmark */;
+			7FA08BE012EE27B900D5D836 /* PlistBookmark */ = 7FA08BE012EE27B900D5D836 /* PlistBookmark */;
+			7FD400CB12E01292002F2538 = 7FD400CB12E01292002F2538 /* PBXTextBookmark */;
+			7FD400CC12E01292002F2538 = 7FD400CC12E01292002F2538 /* PBXTextBookmark */;
+			7FD400CD12E01292002F2538 = 7FD400CD12E01292002F2538 /* PBXBookmark */;
+			7FD400CE12E01292002F2538 = 7FD400CE12E01292002F2538 /* PBXBookmark */;
+			7FEADB1412D24B56001A921C = 7FEADB1412D24B56001A921C /* PBXBookmark */;
+			7FF6D72412D44DAC007528A2 = 7FF6D72412D44DAC007528A2 /* PlistBookmark */;
+			7FF6D72912D44DAC007528A2 = 7FF6D72912D44DAC007528A2 /* PBXBookmark */;
+			7FF6D81712D45136007528A2 = 7FF6D81712D45136007528A2 /* PBXBookmark */;
+			7FF6D81812D45136007528A2 = 7FF6D81812D45136007528A2 /* PBXTextBookmark */;
+			7FF6D81912D45136007528A2 = 7FF6D81912D45136007528A2 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 7F10F33312D139670082EBCB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 247}}";
+			sepNavSelRange = "{102, 0}";
+			sepNavVisRange = "{0, 260}";
+		};
+	};
+	7F10F32012D139470082EBCB /* Chime */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Chime;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+		variableFormatDictionary = {
+		};
+	};
+	7F10F33312D139670082EBCB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7F10F33412D139670082EBCB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7F10F3CC12D156A80082EBCB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 9";
+		rLen = 0;
+		rLoc = 142;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	7F4B561812E5685B009E9BAC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7F10F45E12D16F900082EBCB /* bell@2x.png */;
+	};
+	7F4B565F12E5FCF8009E9BAC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Chime-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jnj/Dropbox/Projects-Personal/Chime/Chime-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	7FA08BE012EE27B900D5D836 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Chime-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/jnj/Dropbox/Projects-Personal/Chime/blacktree-chime/Chime-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	7FD400CB12E01292002F2538 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ChimeAppDelegate.h */;
+		name = "ChimeAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 526;
+		vrLoc = 0;
+	};
+	7FD400CC12E01292002F2538 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ChimeAppDelegate.m */;
+		name = "ChimeAppDelegate.m: 204";
+		rLen = 0;
+		rLoc = 8294;
+		rType = 0;
+		vrLen = 2302;
+		vrLoc = 2717;
+	};
+	7FD400CD12E01292002F2538 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7F4ADEB612D18A44004CB21E /* Icon-Small@2x.png */;
+	};
+	7FD400CE12E01292002F2538 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7F10F45D12D16F900082EBCB /* bell.png */;
+	};
+	7FEADB1412D24B56001A921C /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7F4ADEB912D18A44004CB21E /* iTunesArtwork */;
+	};
+	7FF6D72412D44DAC007528A2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Chime-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/alcor/Desktop/ Unsorted/Chime/Chime-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	7FF6D72912D44DAC007528A2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7F69E8EB12D19E4800A00AB9 /* Default@2x.png */;
+	};
+	7FF6D81712D45136007528A2 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7F69E8EA12D19E4800A00AB9 /* Default.png */;
+	};
+	7FF6D81812D45136007528A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* ChimeViewController.h */;
+		name = "ChimeViewController.h: 30";
+		rLen = 41;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 0;
+	};
+	7FF6D81912D45136007528A2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChimeViewController.m */;
+		name = "ChimeViewController.m: 22";
+		rLen = 0;
+		rLoc = 550;
+		rType = 0;
+		vrLen = 1665;
+		vrLoc = 4283;
+	};
+	8D1107310486CEB800E47090 /* Chime-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{209, 153}, {1144, 714}}";
+		};
+	};
+}
