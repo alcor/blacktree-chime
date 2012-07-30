@@ -2,46 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIPrerenderedIcon</key>
-	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
-	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleBlackTranslucent</string>
 	<key>CFBundleDisplayName</key>
 	<string>${PRODUCT_NAME}</string>
-	<key>UILaunchImageFile</key>
-	<string>Default</string>
-	<key>UIApplicationExitsOnSuspend</key>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>Icon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.blacktree.chime</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.3</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSMainNibFile</key>
+	<string>MainWindow</string>
 	<key>Options</key>
 	<dict>
-		<key>tillTime</key>
+		<key>days</key>
 		<array>
-			<string>midnight</string>
-			<string>1 am</string>
-			<string>2 am</string>
-			<string>3 am</string>
-			<string>4 am</string>
-			<string>5 am</string>
-			<string>6 am</string>
-			<string>7 am</string>
-			<string>8 am</string>
-			<string>9 am</string>
-			<string>10 am</string>
-			<string>11 am</string>
-			<string>12 pm</string>
-			<string>1 pm</string>
-			<string>2 pm</string>
-			<string>3 pm</string>
-			<string>4 pm</string>
-			<string>5 pm</string>
-			<string>6 pm</string>
-			<string>7 pm</string>
-			<string>8 pm</string>
-			<string>9 pm</string>
-			<string>10 pm</string>
-			<string>11 pm</string>
+			<string>week days</string>
+			<string>all days</string>
 		</array>
 		<key>frequency</key>
 		<array>
@@ -77,35 +69,61 @@
 			<string>10 pm</string>
 			<string>11 pm</string>
 		</array>
-		<key>days</key>
-		<array>
-			<string>week days</string>
-			<string>all days</string>
-		</array>
 		<key>theme</key>
 		<array>
 			<string>a simple beep</string>
 			<string>roman numotones</string>
-			<string>speech</string>
 			<string>musical chords</string>
+			<string>speech (male)</string>
+			<string>speech (female)</string>
+			<string>retro beeps</string>
+		</array>
+		<key>tillTime</key>
+		<array>
+			<string>midnight</string>
+			<string>1 am</string>
+			<string>2 am</string>
+			<string>3 am</string>
+			<string>4 am</string>
+			<string>5 am</string>
+			<string>6 am</string>
+			<string>7 am</string>
+			<string>8 am</string>
+			<string>9 am</string>
+			<string>10 am</string>
+			<string>11 am</string>
+			<string>noon</string>
+			<string>1 pm</string>
+			<string>2 pm</string>
+			<string>3 pm</string>
+			<string>4 pm</string>
+			<string>5 pm</string>
+			<string>6 pm</string>
+			<string>7 pm</string>
+			<string>8 pm</string>
+			<string>9 pm</string>
+			<string>10 pm</string>
+			<string>11 pm</string>
 		</array>
 	</dict>
-	<key>CFBundleExecutable</key>
-	<string>${EXECUTABLE_NAME}</string>
-	<key>CFBundleIconFile</key>
-	<string>Icon</string>
-	<key>CFBundleIdentifier</key>
-	<string>com.blacktree.chime</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>${PRODUCT_NAME}</string>
-	<key>CFBundlePackageType</key>
-	<string>APPL</string>
-	<key>CFBundleSignature</key>
-	<string>????</string>
 	<key>Themes</key>
 	<dict>
+		<key>beep</key>
+		<dict>
+			<key>format</key>
+			<string>%@-0-0.caf</string>
+		</dict>
+		<key>chord</key>
+		<dict>
+			<key>format</key>
+			<string>%@-%d-major.caf</string>
+			<key>format-15</key>
+			<string>%@-%d-diminished.caf</string>
+			<key>format-30</key>
+			<string>%@-%d-minor.caf</string>
+			<key>format-45</key>
+			<string>%@-%d-augmented.caf</string>
+		</dict>
 		<key>roman</key>
 		<dict>
 			<key>format</key>
@@ -113,39 +131,47 @@
 			<key>format-30</key>
 			<string>%@-0-2.caf</string>
 		</dict>
-		<key>beep</key>
-		<dict>
-			<key>format</key>
-			<string>%@-0-0.caf</string>
-		</dict>
 		<key>speech</key>
 		<dict>
 			<key>format</key>
 			<string>%@-%d-0.caf</string>
-			<key>format-30</key>
-			<string>%@-%d-2.caf</string>
 			<key>format-15</key>
 			<string>%@-%d-1.caf</string>
+			<key>format-30</key>
+			<string>%@-%d-2.caf</string>
 			<key>format-45</key>
 			<string>%@-%d-3.caf</string>
 		</dict>
-		<key>chord</key>
+		<key>speecha</key>
 		<dict>
 			<key>format</key>
-			<string>%@-%d-major.caf</string>
-			<key>format-30</key>
-			<string>%@-%d-minor.caf</string>
+			<string>%@-%d-0.caf</string>
 			<key>format-15</key>
-			<string>%@-%d-diminished.caf</string>
+			<string>%@-%d-1.caf</string>
+			<key>format-30</key>
+			<string>%@-%d-2.caf</string>
 			<key>format-45</key>
-			<string>%@-%d-augmented.caf</string>
+			<string>%@-%d-3.caf</string>
+			<key>format-M</key>
+			<string>%@-M.caf</string>
+			<key>format-N</key>
+			<string>%@-N.caf</string>
+		</dict>
+		<key>retro</key>
+		<dict>
+			<key>format</key>
+			<string>retro-2.caf</string>
+			<key>format-30</key>
+			<string>retro-1.caf</string>
 		</dict>
 	</dict>
-	<key>CFBundleVersion</key>
-	<string>1.0</string>
-	<key>LSRequiresIPhoneOS</key>
+	<key>UIApplicationExitsOnSuspend</key>
 	<true/>
-	<key>NSMainNibFile</key>
-	<string>MainWindow</string>
+	<key>UILaunchImageFile</key>
+	<string>Default</string>
+	<key>UIPrerenderedIcon</key>
+	<true/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackTranslucent</string>
 </dict>
 </plist>

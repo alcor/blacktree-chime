@@ -17,6 +17,8 @@
 		28D7ACF80DDB3853001CB0EB /* ChimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ChimeViewController.m */; };
 		7F10F45F12D16F900082EBCB /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F10F45D12D16F900082EBCB /* bell.png */; };
 		7F10F46012D16F900082EBCB /* bell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F10F45E12D16F900082EBCB /* bell@2x.png */; };
+		7F3063E6146AB5A100B2D2C5 /* retro-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F3063E4146AB5A100B2D2C5 /* retro-1.caf */; };
+		7F3063E7146AB5A100B2D2C5 /* retro-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F3063E5146AB5A100B2D2C5 /* retro-2.caf */; };
 		7F4ADEBA12D18A44004CB21E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4ADEB312D18A44004CB21E /* Icon-72.png */; };
 		7F4ADEBB12D18A44004CB21E /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4ADEB412D18A44004CB21E /* Icon-Small-50.png */; };
 		7F4ADEBC12D18A44004CB21E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4ADEB512D18A44004CB21E /* Icon-Small.png */; };
@@ -136,6 +138,83 @@
 		7F69E9FE12D1ADA500A00AB9 /* speech-9-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F69E99012D1ADA500A00AB9 /* speech-9-1.caf */; };
 		7F69E9FF12D1ADA500A00AB9 /* speech-9-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F69E99112D1ADA500A00AB9 /* speech-9-2.caf */; };
 		7F69EA0012D1ADA500A00AB9 /* speech-9-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F69E99212D1ADA500A00AB9 /* speech-9-3.caf */; };
+		7FC39CB11364BDFB00C8E06E /* speecha-1-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C641364BDFB00C8E06E /* speecha-1-0.caf */; };
+		7FC39CB21364BDFB00C8E06E /* speecha-1-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C651364BDFB00C8E06E /* speecha-1-1.caf */; };
+		7FC39CB31364BDFB00C8E06E /* speecha-1-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C661364BDFB00C8E06E /* speecha-1-2.caf */; };
+		7FC39CB41364BDFB00C8E06E /* speecha-1-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C671364BDFB00C8E06E /* speecha-1-3.caf */; };
+		7FC39CB51364BDFB00C8E06E /* speecha-1-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C681364BDFB00C8E06E /* speecha-1-4.caf */; };
+		7FC39CB61364BDFB00C8E06E /* speecha-1-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C691364BDFB00C8E06E /* speecha-1-5.caf */; };
+		7FC39CB71364BDFB00C8E06E /* speecha-10-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C6A1364BDFB00C8E06E /* speecha-10-0.caf */; };
+		7FC39CB81364BDFB00C8E06E /* speecha-10-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C6B1364BDFB00C8E06E /* speecha-10-1.caf */; };
+		7FC39CB91364BDFB00C8E06E /* speecha-10-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C6C1364BDFB00C8E06E /* speecha-10-2.caf */; };
+		7FC39CBA1364BDFB00C8E06E /* speecha-10-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C6D1364BDFB00C8E06E /* speecha-10-3.caf */; };
+		7FC39CBB1364BDFB00C8E06E /* speecha-10-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C6E1364BDFB00C8E06E /* speecha-10-4.caf */; };
+		7FC39CBC1364BDFB00C8E06E /* speecha-10-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C6F1364BDFB00C8E06E /* speecha-10-5.caf */; };
+		7FC39CBD1364BDFB00C8E06E /* speecha-11-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C701364BDFB00C8E06E /* speecha-11-0.caf */; };
+		7FC39CBE1364BDFB00C8E06E /* speecha-11-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C711364BDFB00C8E06E /* speecha-11-1.caf */; };
+		7FC39CBF1364BDFB00C8E06E /* speecha-11-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C721364BDFB00C8E06E /* speecha-11-2.caf */; };
+		7FC39CC01364BDFB00C8E06E /* speecha-11-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C731364BDFB00C8E06E /* speecha-11-3.caf */; };
+		7FC39CC11364BDFB00C8E06E /* speecha-11-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C741364BDFB00C8E06E /* speecha-11-4.caf */; };
+		7FC39CC21364BDFB00C8E06E /* speecha-11-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C751364BDFB00C8E06E /* speecha-11-5.caf */; };
+		7FC39CC31364BDFB00C8E06E /* speecha-12-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C761364BDFB00C8E06E /* speecha-12-0.caf */; };
+		7FC39CC41364BDFB00C8E06E /* speecha-12-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C771364BDFB00C8E06E /* speecha-12-1.caf */; };
+		7FC39CC51364BDFB00C8E06E /* speecha-12-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C781364BDFB00C8E06E /* speecha-12-2.caf */; };
+		7FC39CC61364BDFB00C8E06E /* speecha-12-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C791364BDFB00C8E06E /* speecha-12-3.caf */; };
+		7FC39CC71364BDFB00C8E06E /* speecha-12-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C7A1364BDFB00C8E06E /* speecha-12-4.caf */; };
+		7FC39CC81364BDFB00C8E06E /* speecha-12-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C7B1364BDFB00C8E06E /* speecha-12-5.caf */; };
+		7FC39CC91364BDFB00C8E06E /* speecha-2-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C7C1364BDFB00C8E06E /* speecha-2-0.caf */; };
+		7FC39CCA1364BDFB00C8E06E /* speecha-2-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C7D1364BDFB00C8E06E /* speecha-2-1.caf */; };
+		7FC39CCB1364BDFB00C8E06E /* speecha-2-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C7E1364BDFB00C8E06E /* speecha-2-2.caf */; };
+		7FC39CCC1364BDFB00C8E06E /* speecha-2-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C7F1364BDFB00C8E06E /* speecha-2-3.caf */; };
+		7FC39CCD1364BDFB00C8E06E /* speecha-2-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C801364BDFB00C8E06E /* speecha-2-4.caf */; };
+		7FC39CCE1364BDFB00C8E06E /* speecha-2-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C811364BDFB00C8E06E /* speecha-2-5.caf */; };
+		7FC39CCF1364BDFB00C8E06E /* speecha-3-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C821364BDFB00C8E06E /* speecha-3-0.caf */; };
+		7FC39CD01364BDFB00C8E06E /* speecha-3-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C831364BDFB00C8E06E /* speecha-3-1.caf */; };
+		7FC39CD11364BDFB00C8E06E /* speecha-3-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C841364BDFB00C8E06E /* speecha-3-2.caf */; };
+		7FC39CD21364BDFB00C8E06E /* speecha-3-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C851364BDFB00C8E06E /* speecha-3-3.caf */; };
+		7FC39CD31364BDFB00C8E06E /* speecha-3-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C861364BDFB00C8E06E /* speecha-3-4.caf */; };
+		7FC39CD41364BDFB00C8E06E /* speecha-3-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C871364BDFB00C8E06E /* speecha-3-5.caf */; };
+		7FC39CD51364BDFB00C8E06E /* speecha-4-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C881364BDFB00C8E06E /* speecha-4-0.caf */; };
+		7FC39CD61364BDFB00C8E06E /* speecha-4-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C891364BDFB00C8E06E /* speecha-4-1.caf */; };
+		7FC39CD71364BDFB00C8E06E /* speecha-4-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C8A1364BDFB00C8E06E /* speecha-4-2.caf */; };
+		7FC39CD81364BDFB00C8E06E /* speecha-4-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C8B1364BDFB00C8E06E /* speecha-4-3.caf */; };
+		7FC39CD91364BDFB00C8E06E /* speecha-4-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C8C1364BDFB00C8E06E /* speecha-4-4.caf */; };
+		7FC39CDA1364BDFB00C8E06E /* speecha-4-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C8D1364BDFB00C8E06E /* speecha-4-5.caf */; };
+		7FC39CDB1364BDFB00C8E06E /* speecha-5-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C8E1364BDFB00C8E06E /* speecha-5-0.caf */; };
+		7FC39CDC1364BDFB00C8E06E /* speecha-5-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C8F1364BDFB00C8E06E /* speecha-5-1.caf */; };
+		7FC39CDD1364BDFB00C8E06E /* speecha-5-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C901364BDFB00C8E06E /* speecha-5-2.caf */; };
+		7FC39CDE1364BDFB00C8E06E /* speecha-5-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C911364BDFB00C8E06E /* speecha-5-3.caf */; };
+		7FC39CDF1364BDFB00C8E06E /* speecha-5-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C921364BDFB00C8E06E /* speecha-5-4.caf */; };
+		7FC39CE01364BDFB00C8E06E /* speecha-5-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C931364BDFB00C8E06E /* speecha-5-5.caf */; };
+		7FC39CE11364BDFB00C8E06E /* speecha-6-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C941364BDFB00C8E06E /* speecha-6-0.caf */; };
+		7FC39CE21364BDFB00C8E06E /* speecha-6-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C951364BDFB00C8E06E /* speecha-6-1.caf */; };
+		7FC39CE31364BDFB00C8E06E /* speecha-6-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C961364BDFB00C8E06E /* speecha-6-2.caf */; };
+		7FC39CE41364BDFB00C8E06E /* speecha-6-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C971364BDFB00C8E06E /* speecha-6-3.caf */; };
+		7FC39CE51364BDFB00C8E06E /* speecha-6-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C981364BDFB00C8E06E /* speecha-6-4.caf */; };
+		7FC39CE61364BDFB00C8E06E /* speecha-6-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C991364BDFB00C8E06E /* speecha-6-5.caf */; };
+		7FC39CE71364BDFB00C8E06E /* speecha-7-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C9A1364BDFB00C8E06E /* speecha-7-0.caf */; };
+		7FC39CE81364BDFB00C8E06E /* speecha-7-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C9B1364BDFB00C8E06E /* speecha-7-1.caf */; };
+		7FC39CE91364BDFB00C8E06E /* speecha-7-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C9C1364BDFB00C8E06E /* speecha-7-2.caf */; };
+		7FC39CEA1364BDFB00C8E06E /* speecha-7-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C9D1364BDFB00C8E06E /* speecha-7-3.caf */; };
+		7FC39CEB1364BDFB00C8E06E /* speecha-7-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C9E1364BDFB00C8E06E /* speecha-7-4.caf */; };
+		7FC39CEC1364BDFB00C8E06E /* speecha-7-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39C9F1364BDFB00C8E06E /* speecha-7-5.caf */; };
+		7FC39CED1364BDFB00C8E06E /* speecha-77.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CA01364BDFB00C8E06E /* speecha-77.caf */; };
+		7FC39CEE1364BDFB00C8E06E /* speecha-8-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CA11364BDFB00C8E06E /* speecha-8-0.caf */; };
+		7FC39CEF1364BDFB00C8E06E /* speecha-8-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CA21364BDFB00C8E06E /* speecha-8-1.caf */; };
+		7FC39CF01364BDFB00C8E06E /* speecha-8-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CA31364BDFB00C8E06E /* speecha-8-2.caf */; };
+		7FC39CF11364BDFB00C8E06E /* speecha-8-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CA41364BDFB00C8E06E /* speecha-8-3.caf */; };
+		7FC39CF21364BDFB00C8E06E /* speecha-8-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CA51364BDFB00C8E06E /* speecha-8-4.caf */; };
+		7FC39CF31364BDFB00C8E06E /* speecha-8-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CA61364BDFB00C8E06E /* speecha-8-5.caf */; };
+		7FC39CF41364BDFB00C8E06E /* speecha-9-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CA71364BDFB00C8E06E /* speecha-9-0.caf */; };
+		7FC39CF51364BDFB00C8E06E /* speecha-9-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CA81364BDFB00C8E06E /* speecha-9-1.caf */; };
+		7FC39CF61364BDFB00C8E06E /* speecha-9-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CA91364BDFB00C8E06E /* speecha-9-2.caf */; };
+		7FC39CF71364BDFB00C8E06E /* speecha-9-3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CAA1364BDFB00C8E06E /* speecha-9-3.caf */; };
+		7FC39CF81364BDFB00C8E06E /* speecha-9-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CAB1364BDFB00C8E06E /* speecha-9-4.caf */; };
+		7FC39CF91364BDFB00C8E06E /* speecha-9-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CAC1364BDFB00C8E06E /* speecha-9-5.caf */; };
+		7FC39CFA1364BDFB00C8E06E /* speecha-M-4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CAD1364BDFB00C8E06E /* speecha-M-4.caf */; };
+		7FC39CFB1364BDFB00C8E06E /* speecha-M-5.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CAE1364BDFB00C8E06E /* speecha-M-5.caf */; };
+		7FC39CFC1364BDFB00C8E06E /* speecha-M.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CAF1364BDFB00C8E06E /* speecha-M.caf */; };
+		7FC39CFD1364BDFB00C8E06E /* speecha-N.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FC39CB01364BDFB00C8E06E /* speecha-N.caf */; };
 		7FD4008F12DFFF13002F2538 /* chord-1-augmented.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4005F12DFFF13002F2538 /* chord-1-augmented.caf */; };
 		7FD4009012DFFF13002F2538 /* chord-1-diminished.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4006012DFFF13002F2538 /* chord-1-diminished.caf */; };
 		7FD4009112DFFF13002F2538 /* chord-1-major.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7FD4006112DFFF13002F2538 /* chord-1-major.caf */; };
@@ -202,6 +281,8 @@
 		32CA4F630368D1EE00C91783 /* Chime_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chime_Prefix.pch; sourceTree = "<group>"; };
 		7F10F45D12D16F900082EBCB /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
 		7F10F45E12D16F900082EBCB /* bell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell@2x.png"; sourceTree = "<group>"; };
+		7F3063E4146AB5A100B2D2C5 /* retro-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "retro-1.caf"; sourceTree = "<group>"; };
+		7F3063E5146AB5A100B2D2C5 /* retro-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "retro-2.caf"; sourceTree = "<group>"; };
 		7F4ADEB312D18A44004CB21E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		7F4ADEB412D18A44004CB21E /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		7F4ADEB512D18A44004CB21E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
@@ -321,6 +402,83 @@
 		7F69E99012D1ADA500A00AB9 /* speech-9-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speech-9-1.caf"; sourceTree = "<group>"; };
 		7F69E99112D1ADA500A00AB9 /* speech-9-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speech-9-2.caf"; sourceTree = "<group>"; };
 		7F69E99212D1ADA500A00AB9 /* speech-9-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speech-9-3.caf"; sourceTree = "<group>"; };
+		7FC39C641364BDFB00C8E06E /* speecha-1-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-1-0.caf"; sourceTree = "<group>"; };
+		7FC39C651364BDFB00C8E06E /* speecha-1-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-1-1.caf"; sourceTree = "<group>"; };
+		7FC39C661364BDFB00C8E06E /* speecha-1-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-1-2.caf"; sourceTree = "<group>"; };
+		7FC39C671364BDFB00C8E06E /* speecha-1-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-1-3.caf"; sourceTree = "<group>"; };
+		7FC39C681364BDFB00C8E06E /* speecha-1-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-1-4.caf"; sourceTree = "<group>"; };
+		7FC39C691364BDFB00C8E06E /* speecha-1-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-1-5.caf"; sourceTree = "<group>"; };
+		7FC39C6A1364BDFB00C8E06E /* speecha-10-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-10-0.caf"; sourceTree = "<group>"; };
+		7FC39C6B1364BDFB00C8E06E /* speecha-10-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-10-1.caf"; sourceTree = "<group>"; };
+		7FC39C6C1364BDFB00C8E06E /* speecha-10-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-10-2.caf"; sourceTree = "<group>"; };
+		7FC39C6D1364BDFB00C8E06E /* speecha-10-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-10-3.caf"; sourceTree = "<group>"; };
+		7FC39C6E1364BDFB00C8E06E /* speecha-10-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-10-4.caf"; sourceTree = "<group>"; };
+		7FC39C6F1364BDFB00C8E06E /* speecha-10-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-10-5.caf"; sourceTree = "<group>"; };
+		7FC39C701364BDFB00C8E06E /* speecha-11-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-11-0.caf"; sourceTree = "<group>"; };
+		7FC39C711364BDFB00C8E06E /* speecha-11-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-11-1.caf"; sourceTree = "<group>"; };
+		7FC39C721364BDFB00C8E06E /* speecha-11-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-11-2.caf"; sourceTree = "<group>"; };
+		7FC39C731364BDFB00C8E06E /* speecha-11-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-11-3.caf"; sourceTree = "<group>"; };
+		7FC39C741364BDFB00C8E06E /* speecha-11-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-11-4.caf"; sourceTree = "<group>"; };
+		7FC39C751364BDFB00C8E06E /* speecha-11-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-11-5.caf"; sourceTree = "<group>"; };
+		7FC39C761364BDFB00C8E06E /* speecha-12-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-12-0.caf"; sourceTree = "<group>"; };
+		7FC39C771364BDFB00C8E06E /* speecha-12-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-12-1.caf"; sourceTree = "<group>"; };
+		7FC39C781364BDFB00C8E06E /* speecha-12-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-12-2.caf"; sourceTree = "<group>"; };
+		7FC39C791364BDFB00C8E06E /* speecha-12-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-12-3.caf"; sourceTree = "<group>"; };
+		7FC39C7A1364BDFB00C8E06E /* speecha-12-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-12-4.caf"; sourceTree = "<group>"; };
+		7FC39C7B1364BDFB00C8E06E /* speecha-12-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-12-5.caf"; sourceTree = "<group>"; };
+		7FC39C7C1364BDFB00C8E06E /* speecha-2-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-2-0.caf"; sourceTree = "<group>"; };
+		7FC39C7D1364BDFB00C8E06E /* speecha-2-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-2-1.caf"; sourceTree = "<group>"; };
+		7FC39C7E1364BDFB00C8E06E /* speecha-2-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-2-2.caf"; sourceTree = "<group>"; };
+		7FC39C7F1364BDFB00C8E06E /* speecha-2-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-2-3.caf"; sourceTree = "<group>"; };
+		7FC39C801364BDFB00C8E06E /* speecha-2-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-2-4.caf"; sourceTree = "<group>"; };
+		7FC39C811364BDFB00C8E06E /* speecha-2-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-2-5.caf"; sourceTree = "<group>"; };
+		7FC39C821364BDFB00C8E06E /* speecha-3-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-3-0.caf"; sourceTree = "<group>"; };
+		7FC39C831364BDFB00C8E06E /* speecha-3-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-3-1.caf"; sourceTree = "<group>"; };
+		7FC39C841364BDFB00C8E06E /* speecha-3-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-3-2.caf"; sourceTree = "<group>"; };
+		7FC39C851364BDFB00C8E06E /* speecha-3-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-3-3.caf"; sourceTree = "<group>"; };
+		7FC39C861364BDFB00C8E06E /* speecha-3-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-3-4.caf"; sourceTree = "<group>"; };
+		7FC39C871364BDFB00C8E06E /* speecha-3-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-3-5.caf"; sourceTree = "<group>"; };
+		7FC39C881364BDFB00C8E06E /* speecha-4-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-4-0.caf"; sourceTree = "<group>"; };
+		7FC39C891364BDFB00C8E06E /* speecha-4-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-4-1.caf"; sourceTree = "<group>"; };
+		7FC39C8A1364BDFB00C8E06E /* speecha-4-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-4-2.caf"; sourceTree = "<group>"; };
+		7FC39C8B1364BDFB00C8E06E /* speecha-4-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-4-3.caf"; sourceTree = "<group>"; };
+		7FC39C8C1364BDFB00C8E06E /* speecha-4-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-4-4.caf"; sourceTree = "<group>"; };
+		7FC39C8D1364BDFB00C8E06E /* speecha-4-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-4-5.caf"; sourceTree = "<group>"; };
+		7FC39C8E1364BDFB00C8E06E /* speecha-5-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-5-0.caf"; sourceTree = "<group>"; };
+		7FC39C8F1364BDFB00C8E06E /* speecha-5-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-5-1.caf"; sourceTree = "<group>"; };
+		7FC39C901364BDFB00C8E06E /* speecha-5-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-5-2.caf"; sourceTree = "<group>"; };
+		7FC39C911364BDFB00C8E06E /* speecha-5-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-5-3.caf"; sourceTree = "<group>"; };
+		7FC39C921364BDFB00C8E06E /* speecha-5-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-5-4.caf"; sourceTree = "<group>"; };
+		7FC39C931364BDFB00C8E06E /* speecha-5-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-5-5.caf"; sourceTree = "<group>"; };
+		7FC39C941364BDFB00C8E06E /* speecha-6-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-6-0.caf"; sourceTree = "<group>"; };
+		7FC39C951364BDFB00C8E06E /* speecha-6-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-6-1.caf"; sourceTree = "<group>"; };
+		7FC39C961364BDFB00C8E06E /* speecha-6-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-6-2.caf"; sourceTree = "<group>"; };
+		7FC39C971364BDFB00C8E06E /* speecha-6-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-6-3.caf"; sourceTree = "<group>"; };
+		7FC39C981364BDFB00C8E06E /* speecha-6-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-6-4.caf"; sourceTree = "<group>"; };
+		7FC39C991364BDFB00C8E06E /* speecha-6-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-6-5.caf"; sourceTree = "<group>"; };
+		7FC39C9A1364BDFB00C8E06E /* speecha-7-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-7-0.caf"; sourceTree = "<group>"; };
+		7FC39C9B1364BDFB00C8E06E /* speecha-7-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-7-1.caf"; sourceTree = "<group>"; };
+		7FC39C9C1364BDFB00C8E06E /* speecha-7-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-7-2.caf"; sourceTree = "<group>"; };
+		7FC39C9D1364BDFB00C8E06E /* speecha-7-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-7-3.caf"; sourceTree = "<group>"; };
+		7FC39C9E1364BDFB00C8E06E /* speecha-7-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-7-4.caf"; sourceTree = "<group>"; };
+		7FC39C9F1364BDFB00C8E06E /* speecha-7-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-7-5.caf"; sourceTree = "<group>"; };
+		7FC39CA01364BDFB00C8E06E /* speecha-77.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-77.caf"; sourceTree = "<group>"; };
+		7FC39CA11364BDFB00C8E06E /* speecha-8-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-8-0.caf"; sourceTree = "<group>"; };
+		7FC39CA21364BDFB00C8E06E /* speecha-8-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-8-1.caf"; sourceTree = "<group>"; };
+		7FC39CA31364BDFB00C8E06E /* speecha-8-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-8-2.caf"; sourceTree = "<group>"; };
+		7FC39CA41364BDFB00C8E06E /* speecha-8-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-8-3.caf"; sourceTree = "<group>"; };
+		7FC39CA51364BDFB00C8E06E /* speecha-8-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-8-4.caf"; sourceTree = "<group>"; };
+		7FC39CA61364BDFB00C8E06E /* speecha-8-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-8-5.caf"; sourceTree = "<group>"; };
+		7FC39CA71364BDFB00C8E06E /* speecha-9-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-9-0.caf"; sourceTree = "<group>"; };
+		7FC39CA81364BDFB00C8E06E /* speecha-9-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-9-1.caf"; sourceTree = "<group>"; };
+		7FC39CA91364BDFB00C8E06E /* speecha-9-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-9-2.caf"; sourceTree = "<group>"; };
+		7FC39CAA1364BDFB00C8E06E /* speecha-9-3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-9-3.caf"; sourceTree = "<group>"; };
+		7FC39CAB1364BDFB00C8E06E /* speecha-9-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-9-4.caf"; sourceTree = "<group>"; };
+		7FC39CAC1364BDFB00C8E06E /* speecha-9-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-9-5.caf"; sourceTree = "<group>"; };
+		7FC39CAD1364BDFB00C8E06E /* speecha-M-4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-M-4.caf"; sourceTree = "<group>"; };
+		7FC39CAE1364BDFB00C8E06E /* speecha-M-5.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-M-5.caf"; sourceTree = "<group>"; };
+		7FC39CAF1364BDFB00C8E06E /* speecha-M.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-M.caf"; sourceTree = "<group>"; };
+		7FC39CB01364BDFB00C8E06E /* speecha-N.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "speecha-N.caf"; sourceTree = "<group>"; };
 		7FD4005F12DFFF13002F2538 /* chord-1-augmented.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chord-1-augmented.caf"; sourceTree = "<group>"; };
 		7FD4006012DFFF13002F2538 /* chord-1-diminished.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chord-1-diminished.caf"; sourceTree = "<group>"; };
 		7FD4006112DFFF13002F2538 /* chord-1-major.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "chord-1-major.caf"; sourceTree = "<group>"; };
@@ -455,6 +613,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7F3063E3146AB5A100B2D2C5 /* 5 */ = {
+			isa = PBXGroup;
+			children = (
+				7F3063E4146AB5A100B2D2C5 /* retro-1.caf */,
+				7F3063E5146AB5A100B2D2C5 /* retro-2.caf */,
+			);
+			path = 5;
+			sourceTree = "<group>";
+		};
 		7F4ADEB212D18A44004CB21E /* Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -475,7 +642,9 @@
 				7F69E92212D1ADA500A00AB9 /* 0 */,
 				7F69E92412D1ADA500A00AB9 /* 1 */,
 				7F69E93212D1ADA500A00AB9 /* 2 */,
+				7FC39C631364BDFB00C8E06E /* 4 */,
 				7FF6D79712D44EA0007528A2 /* 3 */,
+				7F3063E3146AB5A100B2D2C5 /* 5 */,
 			);
 			path = Themes;
 			sourceTree = "<group>";
@@ -609,6 +778,90 @@
 				7F69E99212D1ADA500A00AB9 /* speech-9-3.caf */,
 			);
 			path = 2;
+			sourceTree = "<group>";
+		};
+		7FC39C631364BDFB00C8E06E /* 4 */ = {
+			isa = PBXGroup;
+			children = (
+				7FC39C641364BDFB00C8E06E /* speecha-1-0.caf */,
+				7FC39C651364BDFB00C8E06E /* speecha-1-1.caf */,
+				7FC39C661364BDFB00C8E06E /* speecha-1-2.caf */,
+				7FC39C671364BDFB00C8E06E /* speecha-1-3.caf */,
+				7FC39C681364BDFB00C8E06E /* speecha-1-4.caf */,
+				7FC39C691364BDFB00C8E06E /* speecha-1-5.caf */,
+				7FC39C6A1364BDFB00C8E06E /* speecha-10-0.caf */,
+				7FC39C6B1364BDFB00C8E06E /* speecha-10-1.caf */,
+				7FC39C6C1364BDFB00C8E06E /* speecha-10-2.caf */,
+				7FC39C6D1364BDFB00C8E06E /* speecha-10-3.caf */,
+				7FC39C6E1364BDFB00C8E06E /* speecha-10-4.caf */,
+				7FC39C6F1364BDFB00C8E06E /* speecha-10-5.caf */,
+				7FC39C701364BDFB00C8E06E /* speecha-11-0.caf */,
+				7FC39C711364BDFB00C8E06E /* speecha-11-1.caf */,
+				7FC39C721364BDFB00C8E06E /* speecha-11-2.caf */,
+				7FC39C731364BDFB00C8E06E /* speecha-11-3.caf */,
+				7FC39C741364BDFB00C8E06E /* speecha-11-4.caf */,
+				7FC39C751364BDFB00C8E06E /* speecha-11-5.caf */,
+				7FC39C761364BDFB00C8E06E /* speecha-12-0.caf */,
+				7FC39C771364BDFB00C8E06E /* speecha-12-1.caf */,
+				7FC39C781364BDFB00C8E06E /* speecha-12-2.caf */,
+				7FC39C791364BDFB00C8E06E /* speecha-12-3.caf */,
+				7FC39C7A1364BDFB00C8E06E /* speecha-12-4.caf */,
+				7FC39C7B1364BDFB00C8E06E /* speecha-12-5.caf */,
+				7FC39C7C1364BDFB00C8E06E /* speecha-2-0.caf */,
+				7FC39C7D1364BDFB00C8E06E /* speecha-2-1.caf */,
+				7FC39C7E1364BDFB00C8E06E /* speecha-2-2.caf */,
+				7FC39C7F1364BDFB00C8E06E /* speecha-2-3.caf */,
+				7FC39C801364BDFB00C8E06E /* speecha-2-4.caf */,
+				7FC39C811364BDFB00C8E06E /* speecha-2-5.caf */,
+				7FC39C821364BDFB00C8E06E /* speecha-3-0.caf */,
+				7FC39C831364BDFB00C8E06E /* speecha-3-1.caf */,
+				7FC39C841364BDFB00C8E06E /* speecha-3-2.caf */,
+				7FC39C851364BDFB00C8E06E /* speecha-3-3.caf */,
+				7FC39C861364BDFB00C8E06E /* speecha-3-4.caf */,
+				7FC39C871364BDFB00C8E06E /* speecha-3-5.caf */,
+				7FC39C881364BDFB00C8E06E /* speecha-4-0.caf */,
+				7FC39C891364BDFB00C8E06E /* speecha-4-1.caf */,
+				7FC39C8A1364BDFB00C8E06E /* speecha-4-2.caf */,
+				7FC39C8B1364BDFB00C8E06E /* speecha-4-3.caf */,
+				7FC39C8C1364BDFB00C8E06E /* speecha-4-4.caf */,
+				7FC39C8D1364BDFB00C8E06E /* speecha-4-5.caf */,
+				7FC39C8E1364BDFB00C8E06E /* speecha-5-0.caf */,
+				7FC39C8F1364BDFB00C8E06E /* speecha-5-1.caf */,
+				7FC39C901364BDFB00C8E06E /* speecha-5-2.caf */,
+				7FC39C911364BDFB00C8E06E /* speecha-5-3.caf */,
+				7FC39C921364BDFB00C8E06E /* speecha-5-4.caf */,
+				7FC39C931364BDFB00C8E06E /* speecha-5-5.caf */,
+				7FC39C941364BDFB00C8E06E /* speecha-6-0.caf */,
+				7FC39C951364BDFB00C8E06E /* speecha-6-1.caf */,
+				7FC39C961364BDFB00C8E06E /* speecha-6-2.caf */,
+				7FC39C971364BDFB00C8E06E /* speecha-6-3.caf */,
+				7FC39C981364BDFB00C8E06E /* speecha-6-4.caf */,
+				7FC39C991364BDFB00C8E06E /* speecha-6-5.caf */,
+				7FC39C9A1364BDFB00C8E06E /* speecha-7-0.caf */,
+				7FC39C9B1364BDFB00C8E06E /* speecha-7-1.caf */,
+				7FC39C9C1364BDFB00C8E06E /* speecha-7-2.caf */,
+				7FC39C9D1364BDFB00C8E06E /* speecha-7-3.caf */,
+				7FC39C9E1364BDFB00C8E06E /* speecha-7-4.caf */,
+				7FC39C9F1364BDFB00C8E06E /* speecha-7-5.caf */,
+				7FC39CA01364BDFB00C8E06E /* speecha-77.caf */,
+				7FC39CA11364BDFB00C8E06E /* speecha-8-0.caf */,
+				7FC39CA21364BDFB00C8E06E /* speecha-8-1.caf */,
+				7FC39CA31364BDFB00C8E06E /* speecha-8-2.caf */,
+				7FC39CA41364BDFB00C8E06E /* speecha-8-3.caf */,
+				7FC39CA51364BDFB00C8E06E /* speecha-8-4.caf */,
+				7FC39CA61364BDFB00C8E06E /* speecha-8-5.caf */,
+				7FC39CA71364BDFB00C8E06E /* speecha-9-0.caf */,
+				7FC39CA81364BDFB00C8E06E /* speecha-9-1.caf */,
+				7FC39CA91364BDFB00C8E06E /* speecha-9-2.caf */,
+				7FC39CAA1364BDFB00C8E06E /* speecha-9-3.caf */,
+				7FC39CAB1364BDFB00C8E06E /* speecha-9-4.caf */,
+				7FC39CAC1364BDFB00C8E06E /* speecha-9-5.caf */,
+				7FC39CAD1364BDFB00C8E06E /* speecha-M-4.caf */,
+				7FC39CAE1364BDFB00C8E06E /* speecha-M-5.caf */,
+				7FC39CAF1364BDFB00C8E06E /* speecha-M.caf */,
+				7FC39CB01364BDFB00C8E06E /* speecha-N.caf */,
+			);
+			path = 4;
 			sourceTree = "<group>";
 		};
 		7FF6D79712D44EA0007528A2 /* 3 */ = {
@@ -886,6 +1139,85 @@
 				7FD400BC12DFFF13002F2538 /* chord-12-diminished.caf in Resources */,
 				7FD400BD12DFFF13002F2538 /* chord-12-major.caf in Resources */,
 				7FD400BE12DFFF13002F2538 /* chord-12-minor.caf in Resources */,
+				7FC39CB11364BDFB00C8E06E /* speecha-1-0.caf in Resources */,
+				7FC39CB21364BDFB00C8E06E /* speecha-1-1.caf in Resources */,
+				7FC39CB31364BDFB00C8E06E /* speecha-1-2.caf in Resources */,
+				7FC39CB41364BDFB00C8E06E /* speecha-1-3.caf in Resources */,
+				7FC39CB51364BDFB00C8E06E /* speecha-1-4.caf in Resources */,
+				7FC39CB61364BDFB00C8E06E /* speecha-1-5.caf in Resources */,
+				7FC39CB71364BDFB00C8E06E /* speecha-10-0.caf in Resources */,
+				7FC39CB81364BDFB00C8E06E /* speecha-10-1.caf in Resources */,
+				7FC39CB91364BDFB00C8E06E /* speecha-10-2.caf in Resources */,
+				7FC39CBA1364BDFB00C8E06E /* speecha-10-3.caf in Resources */,
+				7FC39CBB1364BDFB00C8E06E /* speecha-10-4.caf in Resources */,
+				7FC39CBC1364BDFB00C8E06E /* speecha-10-5.caf in Resources */,
+				7FC39CBD1364BDFB00C8E06E /* speecha-11-0.caf in Resources */,
+				7FC39CBE1364BDFB00C8E06E /* speecha-11-1.caf in Resources */,
+				7FC39CBF1364BDFB00C8E06E /* speecha-11-2.caf in Resources */,
+				7FC39CC01364BDFB00C8E06E /* speecha-11-3.caf in Resources */,
+				7FC39CC11364BDFB00C8E06E /* speecha-11-4.caf in Resources */,
+				7FC39CC21364BDFB00C8E06E /* speecha-11-5.caf in Resources */,
+				7FC39CC31364BDFB00C8E06E /* speecha-12-0.caf in Resources */,
+				7FC39CC41364BDFB00C8E06E /* speecha-12-1.caf in Resources */,
+				7FC39CC51364BDFB00C8E06E /* speecha-12-2.caf in Resources */,
+				7FC39CC61364BDFB00C8E06E /* speecha-12-3.caf in Resources */,
+				7FC39CC71364BDFB00C8E06E /* speecha-12-4.caf in Resources */,
+				7FC39CC81364BDFB00C8E06E /* speecha-12-5.caf in Resources */,
+				7FC39CC91364BDFB00C8E06E /* speecha-2-0.caf in Resources */,
+				7FC39CCA1364BDFB00C8E06E /* speecha-2-1.caf in Resources */,
+				7FC39CCB1364BDFB00C8E06E /* speecha-2-2.caf in Resources */,
+				7FC39CCC1364BDFB00C8E06E /* speecha-2-3.caf in Resources */,
+				7FC39CCD1364BDFB00C8E06E /* speecha-2-4.caf in Resources */,
+				7FC39CCE1364BDFB00C8E06E /* speecha-2-5.caf in Resources */,
+				7FC39CCF1364BDFB00C8E06E /* speecha-3-0.caf in Resources */,
+				7FC39CD01364BDFB00C8E06E /* speecha-3-1.caf in Resources */,
+				7FC39CD11364BDFB00C8E06E /* speecha-3-2.caf in Resources */,
+				7FC39CD21364BDFB00C8E06E /* speecha-3-3.caf in Resources */,
+				7FC39CD31364BDFB00C8E06E /* speecha-3-4.caf in Resources */,
+				7FC39CD41364BDFB00C8E06E /* speecha-3-5.caf in Resources */,
+				7FC39CD51364BDFB00C8E06E /* speecha-4-0.caf in Resources */,
+				7FC39CD61364BDFB00C8E06E /* speecha-4-1.caf in Resources */,
+				7FC39CD71364BDFB00C8E06E /* speecha-4-2.caf in Resources */,
+				7FC39CD81364BDFB00C8E06E /* speecha-4-3.caf in Resources */,
+				7FC39CD91364BDFB00C8E06E /* speecha-4-4.caf in Resources */,
+				7FC39CDA1364BDFB00C8E06E /* speecha-4-5.caf in Resources */,
+				7FC39CDB1364BDFB00C8E06E /* speecha-5-0.caf in Resources */,
+				7FC39CDC1364BDFB00C8E06E /* speecha-5-1.caf in Resources */,
+				7FC39CDD1364BDFB00C8E06E /* speecha-5-2.caf in Resources */,
+				7FC39CDE1364BDFB00C8E06E /* speecha-5-3.caf in Resources */,
+				7FC39CDF1364BDFB00C8E06E /* speecha-5-4.caf in Resources */,
+				7FC39CE01364BDFB00C8E06E /* speecha-5-5.caf in Resources */,
+				7FC39CE11364BDFB00C8E06E /* speecha-6-0.caf in Resources */,
+				7FC39CE21364BDFB00C8E06E /* speecha-6-1.caf in Resources */,
+				7FC39CE31364BDFB00C8E06E /* speecha-6-2.caf in Resources */,
+				7FC39CE41364BDFB00C8E06E /* speecha-6-3.caf in Resources */,
+				7FC39CE51364BDFB00C8E06E /* speecha-6-4.caf in Resources */,
+				7FC39CE61364BDFB00C8E06E /* speecha-6-5.caf in Resources */,
+				7FC39CE71364BDFB00C8E06E /* speecha-7-0.caf in Resources */,
+				7FC39CE81364BDFB00C8E06E /* speecha-7-1.caf in Resources */,
+				7FC39CE91364BDFB00C8E06E /* speecha-7-2.caf in Resources */,
+				7FC39CEA1364BDFB00C8E06E /* speecha-7-3.caf in Resources */,
+				7FC39CEB1364BDFB00C8E06E /* speecha-7-4.caf in Resources */,
+				7FC39CEC1364BDFB00C8E06E /* speecha-7-5.caf in Resources */,
+				7FC39CED1364BDFB00C8E06E /* speecha-77.caf in Resources */,
+				7FC39CEE1364BDFB00C8E06E /* speecha-8-0.caf in Resources */,
+				7FC39CEF1364BDFB00C8E06E /* speecha-8-1.caf in Resources */,
+				7FC39CF01364BDFB00C8E06E /* speecha-8-2.caf in Resources */,
+				7FC39CF11364BDFB00C8E06E /* speecha-8-3.caf in Resources */,
+				7FC39CF21364BDFB00C8E06E /* speecha-8-4.caf in Resources */,
+				7FC39CF31364BDFB00C8E06E /* speecha-8-5.caf in Resources */,
+				7FC39CF41364BDFB00C8E06E /* speecha-9-0.caf in Resources */,
+				7FC39CF51364BDFB00C8E06E /* speecha-9-1.caf in Resources */,
+				7FC39CF61364BDFB00C8E06E /* speecha-9-2.caf in Resources */,
+				7FC39CF71364BDFB00C8E06E /* speecha-9-3.caf in Resources */,
+				7FC39CF81364BDFB00C8E06E /* speecha-9-4.caf in Resources */,
+				7FC39CF91364BDFB00C8E06E /* speecha-9-5.caf in Resources */,
+				7FC39CFA1364BDFB00C8E06E /* speecha-M-4.caf in Resources */,
+				7FC39CFB1364BDFB00C8E06E /* speecha-M-5.caf in Resources */,
+				7FC39CFC1364BDFB00C8E06E /* speecha-M.caf in Resources */,
+				7FC39CFD1364BDFB00C8E06E /* speecha-N.caf in Resources */,
+				7F3063E6146AB5A100B2D2C5 /* retro-1.caf in Resources */,
+				7F3063E7146AB5A100B2D2C5 /* retro-2.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -909,6 +1241,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -923,11 +1259,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Blacktree, Inc.";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Chime_Prefix.pch;
 				INFOPLIST_FILE = "Chime-Info.plist";
 				PRODUCT_NAME = Chime;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11CC6B09-3503-44DA-9FD3-7FAD6A02E5A8";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -952,11 +1294,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Blacktree, Inc.";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Chime_Prefix.pch;
 				INFOPLIST_FILE = "Chime-Info.plist";
 				PRODUCT_NAME = Chime;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11CC6B09-3503-44DA-9FD3-7FAD6A02E5A8";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
