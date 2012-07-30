@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* ChimeAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1216, 746}}";
+			sepNavIntBoundsRect = "{{0, 0}, {825, 729}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 526}";
 			sepNavWindowFrame = "{{19, 1}, {803, 1022}}";
@@ -10,9 +10,9 @@
 	};
 	1D3623250D0F684500981E51 /* ChimeAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1286, 3809}}";
-			sepNavSelRange = "{8294, 0}";
-			sepNavVisRange = "{2717, 2302}";
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 4147}}";
+			sepNavSelRange = "{3399, 5}";
+			sepNavVisRange = "{2221, 2357}";
 			sepNavWindowFrame = "{{19, 81}, {920, 942}}";
 		};
 	};
@@ -32,9 +32,9 @@
 	};
 	28D7ACF70DDB3853001CB0EB /* ChimeViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {712, 2561}}";
-			sepNavSelRange = "{550, 0}";
-			sepNavVisRange = "{4283, 1665}";
+			sepNavIntBoundsRect = "{{0, 0}, {712, 2522}}";
+			sepNavSelRange = "{526, 0}";
+			sepNavVisRange = "{4133, 1550}";
 			sepNavWindowFrame = "{{82, 0}, {803, 1022}}";
 		};
 	};
@@ -45,6 +45,9 @@
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Chime */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Chime */,
+		);
+		breakpoints = (
+			7F6F383312F63B05005BEB4C /* ChimeAppDelegate.m:92 */,
 		);
 		codeSenseManager = 7F10F33412D139670082EBCB /* Code sense */;
 		executables = (
@@ -70,7 +73,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					292,
+					516,
 					20,
 					48,
 					43,
@@ -125,24 +128,21 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 317597624;
-			PBXWorkspaceStateSaveDate = 317597624;
+			PBXPerProjectTemplateStateSaveDate = 319257145;
+			PBXWorkspaceStateSaveDate = 319257145;
 		};
 		perUserProjectItems = {
-			7F10F3CC12D156A80082EBCB = 7F10F3CC12D156A80082EBCB /* PBXTextBookmark */;
-			7F4B561812E5685B009E9BAC = 7F4B561812E5685B009E9BAC /* PBXBookmark */;
-			7F4B565F12E5FCF8009E9BAC = 7F4B565F12E5FCF8009E9BAC /* PlistBookmark */;
-			7FA08BE012EE27B900D5D836 /* PlistBookmark */ = 7FA08BE012EE27B900D5D836 /* PlistBookmark */;
-			7FD400CB12E01292002F2538 = 7FD400CB12E01292002F2538 /* PBXTextBookmark */;
-			7FD400CC12E01292002F2538 = 7FD400CC12E01292002F2538 /* PBXTextBookmark */;
-			7FD400CD12E01292002F2538 = 7FD400CD12E01292002F2538 /* PBXBookmark */;
-			7FD400CE12E01292002F2538 = 7FD400CE12E01292002F2538 /* PBXBookmark */;
-			7FEADB1412D24B56001A921C = 7FEADB1412D24B56001A921C /* PBXBookmark */;
-			7FF6D72412D44DAC007528A2 = 7FF6D72412D44DAC007528A2 /* PlistBookmark */;
-			7FF6D72912D44DAC007528A2 = 7FF6D72912D44DAC007528A2 /* PBXBookmark */;
-			7FF6D81712D45136007528A2 = 7FF6D81712D45136007528A2 /* PBXBookmark */;
-			7FF6D81812D45136007528A2 = 7FF6D81812D45136007528A2 /* PBXTextBookmark */;
-			7FF6D81912D45136007528A2 = 7FF6D81912D45136007528A2 /* PBXTextBookmark */;
+			7F10F3CC12D156A80082EBCB /* PBXTextBookmark */ = 7F10F3CC12D156A80082EBCB /* PBXTextBookmark */;
+			7F35EBCE1307A3430055C3B9 /* PBXTextBookmark */ = 7F35EBCE1307A3430055C3B9 /* PBXTextBookmark */;
+			7F45846E12FF6E6300D1D17E /* PBXTextBookmark */ = 7F45846E12FF6E6300D1D17E /* PBXTextBookmark */;
+			7F4B561812E5685B009E9BAC /* PBXBookmark */ = 7F4B561812E5685B009E9BAC /* PBXBookmark */;
+			7F6F37E712F63765005BEB4C /* PBXTextBookmark */ = 7F6F37E712F63765005BEB4C /* PBXTextBookmark */;
+			7F6F382A12F63AEF005BEB4C /* PlistBookmark */ = 7F6F382A12F63AEF005BEB4C /* PlistBookmark */;
+			7F6F382B12F63AEF005BEB4C /* PBXTextBookmark */ = 7F6F382B12F63AEF005BEB4C /* PBXTextBookmark */;
+			7FD400CD12E01292002F2538 /* PBXBookmark */ = 7FD400CD12E01292002F2538 /* PBXBookmark */;
+			7FD400CE12E01292002F2538 /* PBXBookmark */ = 7FD400CE12E01292002F2538 /* PBXBookmark */;
+			7FEADB1412D24B56001A921C /* PBXBookmark */ = 7FEADB1412D24B56001A921C /* PBXBookmark */;
+			7FF6D81812D45136007528A2 /* PBXTextBookmark */ = 7FF6D81812D45136007528A2 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7F10F33312D139670082EBCB /* Source Control */;
 		userBuildSettings = {
@@ -212,22 +212,41 @@
 		vrLen = 358;
 		vrLoc = 0;
 	};
+	7F35EBCE1307A3430055C3B9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ChimeAppDelegate.m */;
+		name = "ChimeAppDelegate.m: 94";
+		rLen = 5;
+		rLoc = 3399;
+		rType = 0;
+		vrLen = 2357;
+		vrLoc = 2221;
+	};
+	7F45846E12FF6E6300D1D17E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ChimeAppDelegate.m */;
+		name = "ChimeAppDelegate.m: 94";
+		rLen = 5;
+		rLoc = 3399;
+		rType = 0;
+		vrLen = 2320;
+		vrLoc = 2256;
+	};
 	7F4B561812E5685B009E9BAC /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 7F10F45E12D16F900082EBCB /* bell@2x.png */;
 	};
-	7F4B565F12E5FCF8009E9BAC /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Chime-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/jnj/Dropbox/Projects-Personal/Chime/Chime-Info.plist";
+	7F6F37E712F63765005BEB4C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* ChimeViewController.m */;
+		name = "ChimeViewController.m: 20";
 		rLen = 0;
-		rLoc = 9223372036854775808;
+		rLoc = 526;
+		rType = 0;
+		vrLen = 1550;
+		vrLoc = 4133;
 	};
-	7FA08BE012EE27B900D5D836 /* PlistBookmark */ = {
+	7F6F382A12F63AEF005BEB4C /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Chime-Info.plist */;
 		fallbackIsa = PBXBookmark;
@@ -236,9 +255,9 @@
 		);
 		name = "/Users/jnj/Dropbox/Projects-Personal/Chime/blacktree-chime/Chime-Info.plist";
 		rLen = 0;
-		rLoc = 9223372036854775807;
+		rLoc = 9223372036854775808;
 	};
-	7FD400CB12E01292002F2538 /* PBXTextBookmark */ = {
+	7F6F382B12F63AEF005BEB4C /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* ChimeAppDelegate.h */;
 		name = "ChimeAppDelegate.h: 1";
@@ -248,15 +267,23 @@
 		vrLen = 526;
 		vrLoc = 0;
 	};
-	7FD400CC12E01292002F2538 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* ChimeAppDelegate.m */;
-		name = "ChimeAppDelegate.m: 204";
-		rLen = 0;
-		rLoc = 8294;
-		rType = 0;
-		vrLen = 2302;
-		vrLoc = 2717;
+	7F6F383312F63B05005BEB4C /* ChimeAppDelegate.m:92 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* ChimeAppDelegate.m */;
+		functionName = "-scheduleOneNotification";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 92;
+		location = Chime;
+		modificationTime = 318126862.91945;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
 	};
 	7FD400CD12E01292002F2538 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -270,26 +297,6 @@
 		isa = PBXBookmark;
 		fRef = 7F4ADEB912D18A44004CB21E /* iTunesArtwork */;
 	};
-	7FF6D72412D44DAC007528A2 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 8D1107310486CEB800E47090 /* Chime-Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-			CFBundleIdentifier,
-		);
-		name = "/Users/alcor/Desktop/ Unsorted/Chime/Chime-Info.plist";
-		rLen = 0;
-		rLoc = 9223372036854775808;
-	};
-	7FF6D72912D44DAC007528A2 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 7F69E8EB12D19E4800A00AB9 /* Default@2x.png */;
-	};
-	7FF6D81712D45136007528A2 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 7F69E8EA12D19E4800A00AB9 /* Default.png */;
-	};
 	7FF6D81812D45136007528A2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* ChimeViewController.h */;
@@ -299,16 +306,6 @@
 		rType = 0;
 		vrLen = 868;
 		vrLoc = 0;
-	};
-	7FF6D81912D45136007528A2 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28D7ACF70DDB3853001CB0EB /* ChimeViewController.m */;
-		name = "ChimeViewController.m: 22";
-		rLen = 0;
-		rLoc = 550;
-		rType = 0;
-		vrLen = 1665;
-		vrLoc = 4283;
 	};
 	8D1107310486CEB800E47090 /* Chime-Info.plist */ = {
 		uiCtxt = {
