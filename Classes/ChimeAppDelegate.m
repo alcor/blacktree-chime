@@ -39,7 +39,7 @@
   notificationsQueue = [[NSMutableArray alloc] initWithCapacity:12];
   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(defaultsChanged:) name:NSUserDefaultsDidChangeNotification object:nil];
   [self updateNotifications];
-  [self.window addSubview:viewController.view];
+  self.window.rootViewController = viewController;
   [self.window makeKeyAndVisible];
   
   return YES;
