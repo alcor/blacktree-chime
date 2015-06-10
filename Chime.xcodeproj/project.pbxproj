@@ -15,21 +15,10 @@
 		2899E5220DE3E06400AC0155 /* ChimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ChimeViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* ChimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ChimeViewController.m */; };
-		6445B1911B28DAEE002586F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6445B1901B28DAEE002586F4 /* Default-568h@2x.png */; };
-		7F10F45F12D16F900082EBCB /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F10F45D12D16F900082EBCB /* bell.png */; };
-		7F10F46012D16F900082EBCB /* bell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F10F45E12D16F900082EBCB /* bell@2x.png */; };
+		6445B1931B28E2D2002586F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6445B1921B28E2D2002586F4 /* Images.xcassets */; };
 		7F3063E6146AB5A100B2D2C5 /* retro-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F3063E4146AB5A100B2D2C5 /* retro-1.caf */; };
 		7F3063E7146AB5A100B2D2C5 /* retro-2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F3063E5146AB5A100B2D2C5 /* retro-2.caf */; };
-		7F4ADEBA12D18A44004CB21E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4ADEB312D18A44004CB21E /* Icon-72.png */; };
-		7F4ADEBB12D18A44004CB21E /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4ADEB412D18A44004CB21E /* Icon-Small-50.png */; };
-		7F4ADEBC12D18A44004CB21E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4ADEB512D18A44004CB21E /* Icon-Small.png */; };
-		7F4ADEBD12D18A44004CB21E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4ADEB612D18A44004CB21E /* Icon-Small@2x.png */; };
-		7F4ADEBE12D18A44004CB21E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4ADEB712D18A44004CB21E /* Icon.png */; };
-		7F4ADEBF12D18A44004CB21E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4ADEB812D18A44004CB21E /* Icon@2x.png */; };
-		7F4ADEC012D18A44004CB21E /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7F4ADEB912D18A44004CB21E /* iTunesArtwork */; };
 		7F4ADED912D191FF004CB21E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4ADED812D191FF004CB21E /* AudioToolbox.framework */; };
-		7F69E8EC12D19E4800A00AB9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F69E8EA12D19E4800A00AB9 /* Default.png */; };
-		7F69E8ED12D19E4800A00AB9 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F69E8EB12D19E4800A00AB9 /* Default@2x.png */; };
 		7F69E99312D1ADA500A00AB9 /* beep-0-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F69E92312D1ADA500A00AB9 /* beep-0-0.caf */; };
 		7F69E99512D1ADA500A00AB9 /* roman-1-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F69E92612D1ADA500A00AB9 /* roman-1-0.caf */; };
 		7F69E99612D1ADA500A00AB9 /* roman-10-0.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F69E92712D1ADA500A00AB9 /* roman-10-0.caf */; };
@@ -280,21 +269,10 @@
 		28D7ACF70DDB3853001CB0EB /* ChimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChimeViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Chime_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chime_Prefix.pch; sourceTree = "<group>"; };
-		6445B1901B28DAEE002586F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		7F10F45D12D16F900082EBCB /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
-		7F10F45E12D16F900082EBCB /* bell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell@2x.png"; sourceTree = "<group>"; };
+		6445B1921B28E2D2002586F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7F3063E4146AB5A100B2D2C5 /* retro-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "retro-1.caf"; sourceTree = "<group>"; };
 		7F3063E5146AB5A100B2D2C5 /* retro-2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "retro-2.caf"; sourceTree = "<group>"; };
-		7F4ADEB312D18A44004CB21E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
-		7F4ADEB412D18A44004CB21E /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
-		7F4ADEB512D18A44004CB21E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		7F4ADEB612D18A44004CB21E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		7F4ADEB712D18A44004CB21E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		7F4ADEB812D18A44004CB21E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
-		7F4ADEB912D18A44004CB21E /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		7F4ADED812D191FF004CB21E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		7F69E8EA12D19E4800A00AB9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		7F69E8EB12D19E4800A00AB9 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7F69E92312D1ADA500A00AB9 /* beep-0-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "beep-0-0.caf"; sourceTree = "<group>"; };
 		7F69E92612D1ADA500A00AB9 /* roman-1-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roman-1-0.caf"; sourceTree = "<group>"; };
 		7F69E92712D1ADA500A00AB9 /* roman-10-0.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "roman-10-0.caf"; sourceTree = "<group>"; };
@@ -570,7 +548,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				6445B1901B28DAEE002586F4 /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -593,15 +570,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7F4ADEB212D18A44004CB21E /* Icons */,
 				7F69E92112D1ADA500A00AB9 /* Themes */,
-				7F69E8EA12D19E4800A00AB9 /* Default.png */,
-				7F69E8EB12D19E4800A00AB9 /* Default@2x.png */,
-				7F10F45D12D16F900082EBCB /* bell.png */,
-				7F10F45E12D16F900082EBCB /* bell@2x.png */,
 				2899E5210DE3E06400AC0155 /* ChimeViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Chime-Info.plist */,
+				6445B1921B28E2D2002586F4 /* Images.xcassets */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -623,20 +596,6 @@
 				7F3063E5146AB5A100B2D2C5 /* retro-2.caf */,
 			);
 			path = 5;
-			sourceTree = "<group>";
-		};
-		7F4ADEB212D18A44004CB21E /* Icons */ = {
-			isa = PBXGroup;
-			children = (
-				7F4ADEB312D18A44004CB21E /* Icon-72.png */,
-				7F4ADEB412D18A44004CB21E /* Icon-Small-50.png */,
-				7F4ADEB512D18A44004CB21E /* Icon-Small.png */,
-				7F4ADEB612D18A44004CB21E /* Icon-Small@2x.png */,
-				7F4ADEB712D18A44004CB21E /* Icon.png */,
-				7F4ADEB812D18A44004CB21E /* Icon@2x.png */,
-				7F4ADEB912D18A44004CB21E /* iTunesArtwork */,
-			);
-			path = Icons;
 			sourceTree = "<group>";
 		};
 		7F69E92112D1ADA500A00AB9 /* Themes */ = {
@@ -975,17 +934,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* ChimeViewController.xib in Resources */,
-				7F10F45F12D16F900082EBCB /* bell.png in Resources */,
-				7F10F46012D16F900082EBCB /* bell@2x.png in Resources */,
-				7F4ADEBA12D18A44004CB21E /* Icon-72.png in Resources */,
-				7F4ADEBB12D18A44004CB21E /* Icon-Small-50.png in Resources */,
-				7F4ADEBC12D18A44004CB21E /* Icon-Small.png in Resources */,
-				7F4ADEBD12D18A44004CB21E /* Icon-Small@2x.png in Resources */,
-				7F4ADEBE12D18A44004CB21E /* Icon.png in Resources */,
-				7F4ADEBF12D18A44004CB21E /* Icon@2x.png in Resources */,
-				7F4ADEC012D18A44004CB21E /* iTunesArtwork in Resources */,
-				7F69E8EC12D19E4800A00AB9 /* Default.png in Resources */,
-				7F69E8ED12D19E4800A00AB9 /* Default@2x.png in Resources */,
+				6445B1931B28E2D2002586F4 /* Images.xcassets in Resources */,
 				7F69E99312D1ADA500A00AB9 /* beep-0-0.caf in Resources */,
 				7F69E99512D1ADA500A00AB9 /* roman-1-0.caf in Resources */,
 				7F69E99612D1ADA500A00AB9 /* roman-10-0.caf in Resources */,
@@ -1200,7 +1149,6 @@
 				7FC39CE61364BDFB00C8E06E /* speecha-6-5.caf in Resources */,
 				7FC39CE71364BDFB00C8E06E /* speecha-7-0.caf in Resources */,
 				7FC39CE81364BDFB00C8E06E /* speecha-7-1.caf in Resources */,
-				6445B1911B28DAEE002586F4 /* Default-568h@2x.png in Resources */,
 				7FC39CE91364BDFB00C8E06E /* speecha-7-2.caf in Resources */,
 				7FC39CEA1364BDFB00C8E06E /* speecha-7-3.caf in Resources */,
 				7FC39CEB1364BDFB00C8E06E /* speecha-7-4.caf in Resources */,
@@ -1251,6 +1199,8 @@
 					armv6,
 					armv7,
 				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1269,6 +1219,8 @@
 					armv6,
 					armv7,
 				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Blacktree, Inc.";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1303,6 +1255,8 @@
 					armv6,
 					armv7,
 				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Blacktree, Inc.";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
