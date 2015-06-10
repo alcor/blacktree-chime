@@ -189,12 +189,13 @@
                         <action selector="toggleValueForSender:" destination="-1" eventType="touchUpInside" id="65"/>
                     </connections>
                 </button>
-                <button opaque="NO" alpha="0.019999999552965164" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="66">
-                    <rect key="frame" x="232" y="266" width="44" height="44"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                <button opaque="NO" alpha="0.02" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="66">
+                    <rect key="frame" x="208" y="264" width="48" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
-                    <state key="normal" title="◀">
+                    <inset key="contentEdgeInsets" minX="12" minY="12" maxX="12" maxY="12"/>
+                    <state key="normal" image="ic_chevron_left">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
@@ -206,12 +207,13 @@
                         <action selector="toggleValueForSender:" destination="-1" eventType="touchUpInside" id="67"/>
                     </connections>
                 </button>
-                <button opaque="NO" alpha="0.019999999552965164" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="68">
-                    <rect key="frame" x="275" y="266" width="44" height="44"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                <button opaque="NO" alpha="0.02" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="68">
+                    <rect key="frame" x="256" y="264" width="48" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
-                    <state key="normal" title="▶">
+                    <inset key="contentEdgeInsets" minX="12" minY="12" maxX="12" maxY="12"/>
+                    <state key="normal" image="ic_chevron_right">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
@@ -223,12 +225,13 @@
                         <action selector="toggleValueForSender:" destination="-1" eventType="touchUpInside" id="69"/>
                     </connections>
                 </button>
-                <button opaque="NO" alpha="0.019999999552965164" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="70">
-                    <rect key="frame" x="232" y="309" width="44" height="44"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                <button opaque="NO" alpha="0.02" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="70">
+                    <rect key="frame" x="208" y="308" width="48" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
-                    <state key="normal" title="◀">
+                    <inset key="contentEdgeInsets" minX="12" minY="12" maxX="12" maxY="12"/>
+                    <state key="normal" image="ic_chevron_left">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
@@ -240,12 +243,17 @@
                         <action selector="toggleValueForSender:" destination="-1" eventType="touchUpInside" id="72"/>
                     </connections>
                 </button>
-                <button opaque="NO" alpha="0.019999999552965164" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="71">
-                    <rect key="frame" x="275" y="309" width="44" height="44"/>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="gray" id="80">
+                    <rect key="frame" x="287" y="408" width="20" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </activityIndicatorView>
+                <button opaque="NO" alpha="0.02" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="71">
+                    <rect key="frame" x="256" y="308" width="48" height="48"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
-                    <state key="normal" title="▶">
+                    <inset key="contentEdgeInsets" minX="12" minY="12" maxX="12" maxY="12"/>
+                    <state key="normal" image="ic_chevron_right">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
@@ -257,10 +265,6 @@
                         <action selector="toggleValueForSender:" destination="-1" eventType="touchUpInside" id="73"/>
                     </connections>
                 </button>
-                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="gray" id="80">
-                    <rect key="frame" x="287" y="408" width="20" height="20"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" red="0.76324754019999996" green="0.77970297030000002" blue="0.72759410840000005" alpha="1" colorSpace="deviceRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
@@ -269,5 +273,7 @@
     </objects>
     <resources>
         <image name="bell" width="44" height="44"/>
+        <image name="ic_chevron_left" width="24" height="24"/>
+        <image name="ic_chevron_right" width="24" height="24"/>
     </resources>
 </document>
