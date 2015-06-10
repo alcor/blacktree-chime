@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChimeViewController">
             <connections>
+                <outlet property="backgroundView" destination="50H-qI-505" id="RMa-5Q-crx"/>
                 <outlet property="bellImage" destination="48" id="50"/>
                 <outlet property="daysButton" destination="61" id="64"/>
                 <outlet property="frequencyButton" destination="31" id="36"/>
@@ -29,7 +30,11 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.33000001311302185" contentMode="left" text="from " lineBreakMode="tailTruncation" minimumFontSize="10" id="14">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="50H-qI-505">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.33000001311302185" contentMode="left" text="from " lineBreakMode="tailTruncation" minimumFontSize="10" id="14" userLabel="from">
                     <rect key="frame" x="26" y="266" width="66" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

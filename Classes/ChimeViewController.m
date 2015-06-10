@@ -166,6 +166,9 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
   [self updateValues];
+
+  backgroundView.image = [UIImage imageNamed:@"LaunchImage"];
+
   [super viewDidLoad];
 }
 

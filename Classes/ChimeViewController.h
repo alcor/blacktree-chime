@@ -19,6 +19,7 @@
   IBOutlet UILabel *onLabel;
   IBOutlet UILabel *offLabel;
   IBOutlet UIImageView *bellImage;
+  IBOutlet UIImageView *backgroundView;
   IBOutlet UIButton *fromUpButton;
   IBOutlet UIButton *fromDownButton;
   IBOutlet UIButton *tillUpButton;
