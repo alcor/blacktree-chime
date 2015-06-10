@@ -18,11 +18,11 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.3</string>
-	<key>CFBundleShortVersionString</key>
 	<string>1.0.3</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
@@ -124,6 +124,13 @@
 			<key>format-45</key>
 			<string>%@-%d-augmented.caf</string>
 		</dict>
+		<key>retro</key>
+		<dict>
+			<key>format</key>
+			<string>retro-2.caf</string>
+			<key>format-30</key>
+			<string>retro-1.caf</string>
+		</dict>
 		<key>roman</key>
 		<dict>
 			<key>format</key>
@@ -157,21 +164,22 @@
 			<key>format-N</key>
 			<string>%@-N.caf</string>
 		</dict>
-		<key>retro</key>
-		<dict>
-			<key>format</key>
-			<string>retro-2.caf</string>
-			<key>format-30</key>
-			<string>retro-1.caf</string>
-		</dict>
 	</dict>
-	<key>UIApplicationExitsOnSuspend</key>
-	<true/>
 	<key>UILaunchImageFile</key>
 	<string>Default</string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleBlackTranslucent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

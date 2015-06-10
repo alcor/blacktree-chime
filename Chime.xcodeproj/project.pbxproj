@@ -15,6 +15,7 @@
 		2899E5220DE3E06400AC0155 /* ChimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* ChimeViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* ChimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ChimeViewController.m */; };
+		6445B1911B28DAEE002586F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6445B1901B28DAEE002586F4 /* Default-568h@2x.png */; };
 		7F10F45F12D16F900082EBCB /* bell.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F10F45D12D16F900082EBCB /* bell.png */; };
 		7F10F46012D16F900082EBCB /* bell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F10F45E12D16F900082EBCB /* bell@2x.png */; };
 		7F3063E6146AB5A100B2D2C5 /* retro-1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 7F3063E4146AB5A100B2D2C5 /* retro-1.caf */; };
@@ -279,6 +280,7 @@
 		28D7ACF70DDB3853001CB0EB /* ChimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChimeViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Chime_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chime_Prefix.pch; sourceTree = "<group>"; };
+		6445B1901B28DAEE002586F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7F10F45D12D16F900082EBCB /* bell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bell.png; sourceTree = "<group>"; };
 		7F10F45E12D16F900082EBCB /* bell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bell@2x.png"; sourceTree = "<group>"; };
 		7F3063E4146AB5A100B2D2C5 /* retro-1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "retro-1.caf"; sourceTree = "<group>"; };
@@ -568,6 +570,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				6445B1901B28DAEE002586F4 /* Default-568h@2x.png */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -944,6 +947,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Chime" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -1195,6 +1200,7 @@
 				7FC39CE61364BDFB00C8E06E /* speecha-6-5.caf in Resources */,
 				7FC39CE71364BDFB00C8E06E /* speecha-7-0.caf in Resources */,
 				7FC39CE81364BDFB00C8E06E /* speecha-7-1.caf in Resources */,
+				6445B1911B28DAEE002586F4 /* Default-568h@2x.png in Resources */,
 				7FC39CE91364BDFB00C8E06E /* speecha-7-2.caf in Resources */,
 				7FC39CEA1364BDFB00C8E06E /* speecha-7-3.caf in Resources */,
 				7FC39CEB1364BDFB00C8E06E /* speecha-7-4.caf in Resources */,
@@ -1277,14 +1283,13 @@
 		7F4B565412E56E9B009E9BAC /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Blacktree, Inc.";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DA5F34F7-5DE1-48B0-8125-5ACC758CFE6F";
 				SDKROOT = iphoneos;
 			};
@@ -1312,13 +1317,12 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
-				PREBINDING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1326,14 +1330,12 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PREBINDING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 			};
 			name = Release;
