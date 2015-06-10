@@ -163,7 +163,7 @@
                         <action selector="toggleValueForSender:" destination="-1" eventType="touchUpInside" id="45"/>
                     </connections>
                 </button>
-                <imageView userInteractionEnabled="NO" alpha="0.33000001311302185" contentMode="scaleToFill" image="bell.png" id="48">
+                <imageView userInteractionEnabled="NO" alpha="0.33000001311302185" contentMode="scaleToFill" image="bell" id="48">
                     <rect key="frame" x="20" y="398" width="44" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </imageView>
@@ -263,6 +263,6 @@
         </view>
     </objects>
     <resources>
-        <image name="bell.png" width="44" height="44"/>
+        <image name="bell" width="44" height="44"/>
     </resources>
 </document>
