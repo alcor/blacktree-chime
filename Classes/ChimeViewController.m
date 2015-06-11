@@ -82,24 +82,24 @@
   
   
   NSInteger frequencyValue = [defaults integerForKey:@"frequency"];
-  [frequencyButton setTitle: [[options valueForKey:@"frequency"] objectAtIndex:frequencyValue]
+  [frequencyButton setTitle:[options valueForKey:@"frequency"][frequencyValue]
                    forState:UIControlStateNormal];
   
   NSInteger fromValue = [defaults integerForKey:@"fromTime"];
-  [fromButton setTitle: [[options valueForKey:@"fromTime"] objectAtIndex:fromValue]
+  [fromButton setTitle:[options valueForKey:@"fromTime"][fromValue]
               forState:UIControlStateNormal];
   
   NSInteger tillValue = [defaults integerForKey:@"tillTime"];
-  [tillButton setTitle: [[options valueForKey:@"tillTime"] objectAtIndex:tillValue]
-             forState:UIControlStateNormal];
+  [tillButton setTitle:[options valueForKey:@"tillTime"][tillValue]
+              forState:UIControlStateNormal];
 
   NSInteger daysValue = [defaults integerForKey:@"days"];
-  [daysButton setTitle: [[options valueForKey:@"days"] objectAtIndex:daysValue]
-             forState:UIControlStateNormal];
+  [daysButton setTitle:[options valueForKey:@"days"][daysValue]
+              forState:UIControlStateNormal];
   
   NSInteger themeValue = [defaults integerForKey:@"theme"];
-  [themeButton setTitle: [[options valueForKey:@"theme"] objectAtIndex:themeValue]
-             forState:UIControlStateNormal];
+  [themeButton setTitle:[options valueForKey:@"theme"][themeValue]
+               forState:UIControlStateNormal];
   
   NSInteger enabled = [defaults boolForKey:@"enabled"];
   
@@ -139,7 +139,6 @@
   [UIView setAnimationDuration:0.1];
   [themeButton setAlpha: enabled ? 1.0 : 0.33];  
   [UIView commitAnimations];
-  
 }
 
 - (void)viewDidLoad {

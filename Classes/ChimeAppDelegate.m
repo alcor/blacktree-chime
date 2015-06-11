@@ -22,19 +22,21 @@
 #pragma mark -
 #pragma mark Application lifecycle
 + (void)initialize {
-  NSDictionary *dict = [NSDictionary dictionaryWithObjectsAndKeys:
-                        [NSNumber numberWithBool:YES], @"enabled",
-                        [NSNumber numberWithInteger:1], @"frequency",
-                        [NSNumber numberWithInteger:9], @"fromTime",
-                        //[NSNumber numberWithInteger:1], @"days",
-                        [NSNumber numberWithInteger:21], @"tillTime",
-                        nil];
+  NSDictionary *dict = @{
+      @"enabled": @YES,
+      @"frequency": @1,
+      @"fromTime": @9,
+      @"tillTime": @21}
+  ;
   [[NSUserDefaults standardUserDefaults] registerDefaults:dict];
   
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
   self.notificationsQueue = [[NSMutableArray alloc] initWithCapacity:12];
-  [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(defaultsChanged:) name:NSUserDefaultsDidChangeNotification object:nil];
+  [[NSNotificationCenter defaultCenter] addObserver:self
+                                           selector:@selector(defaultsChanged:)
+                                               name:NSUserDefaultsDidChangeNotification
+                                             object:nil];
   [self updateNotifications];
   self.window.rootViewController = self.viewController;
   [self.window makeKeyAndVisible];
@@ -54,11 +56,12 @@
 
 - (void)playSound:(NSString *)soundName {
   CFBundleRef mainBundle = CFBundleGetMainBundle();
-  
-  CFURLRef soundFileURLRef  = CFBundleCopyResourceURL (mainBundle,
-                                                       (CFStringRef)[soundName stringByDeletingPathExtension],
-                                                       (CFStringRef)[soundName pathExtension],
-                                                       NULL);
+  CFURLRef soundFileURLRef  = CFBundleCopyResourceURL(
+       mainBundle,
+       (CFStringRef)[soundName stringByDeletingPathExtension],
+       (CFStringRef)[soundName pathExtension],
+       NULL);
+
   if (soundFileURLRef) {
     SystemSoundID soundFileObject;
     AudioServicesCreateSystemSoundID (soundFileURLRef, &soundFileObject);
@@ -81,7 +84,7 @@
 
 - (void)scheduleOneNotification {
   if ([self.notificationsQueue count]) {
-    UILocalNotification *notif = [self.notificationsQueue objectAtIndex:0];
+    UILocalNotification *notif = (self.notificationsQueue)[0];
     NSDate *fireDate = [notif fireDate];
     
     NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
@@ -119,7 +122,9 @@
 }
 
 - (void)scheduleAllNotifications {
-  [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(scheduleOneNotificationAndLoop) object:nil];
+  [NSObject cancelPreviousPerformRequestsWithTarget:self
+                                           selector:@selector(scheduleOneNotificationAndLoop)
+                                             object:nil];
   if ([self.notificationsQueue count]) {
     while ([self.notificationsQueue count]) {
       [self scheduleOneNotification];
@@ -133,17 +138,19 @@
   [self scheduleOneNotification];
   
   if ([self.notificationsQueue count]) {
-    [self performSelector:@selector(scheduleOneNotificationAndLoop) withObject:nil afterDelay:0.0]; 
+    [self performSelector:@selector(scheduleOneNotificationAndLoop)
+               withObject:nil
+               afterDelay:0];
   } else {
     NSLog(@"All alerts scheduled");
     [self.viewController setSpinnerVisible:NO];
-    
   }
 }
 
 - (void)updateNotifications {
-  
-  [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(scheduleOneNotificationAndLoop) object:nil];
+  [NSObject cancelPreviousPerformRequestsWithTarget:self
+                                           selector:@selector(scheduleOneNotificationAndLoop)
+                                             object:nil];
   [self.notificationsQueue removeAllObjects];
   NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
   
@@ -154,21 +161,21 @@
   NSUInteger fromTime = ([defaults integerForKey:@"fromTime"]) % 24;
   NSUInteger tillTime = ([defaults integerForKey:@"tillTime"]) % 24;
   NSUInteger themeIndex = [defaults integerForKey:@"theme"];
-  NSArray *themes = [NSArray arrayWithObjects:@"beep", @"roman", @"chord", @"speech", @"speecha", @"retro", nil];
-  NSString *theme = [themes objectAtIndex:themeIndex];
+  NSArray *themes = @[@"beep", @"roman", @"chord", @"speech", @"speecha", @"retro"];
+  NSString *theme = themes[themeIndex];
   
-  NSDictionary *formatDict = [[[NSBundle mainBundle] objectForInfoDictionaryKey:@"Themes"] objectForKey:theme];
+  NSDictionary *formatDict = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"Themes"][theme];
   
-  NSString *soundNameFormat = [formatDict objectForKey:@"format"];
-  NSString *soundNameFormat30 = [formatDict objectForKey:@"format-30"];
-  NSString *soundNameFormat15 = [formatDict objectForKey:@"format-15"];
-  NSString *soundNameFormat45 = [formatDict objectForKey:@"format-45"];
+  NSString *soundNameFormat = formatDict[@"format"];
+  NSString *soundNameFormat30 = formatDict[@"format-30"];
+  NSString *soundNameFormat15 = formatDict[@"format-15"];
+  NSString *soundNameFormat45 = formatDict[@"format-45"];
   
   if (!soundNameFormat30) soundNameFormat30 = soundNameFormat;
   if (!soundNameFormat15) soundNameFormat15 = soundNameFormat30;
   if (!soundNameFormat45) soundNameFormat45 = soundNameFormat30;
   
-  NSArray *formats = [NSArray arrayWithObjects:soundNameFormat, soundNameFormat15, soundNameFormat30, soundNameFormat45, nil];
+  NSArray *formats = @[soundNameFormat, soundNameFormat15, soundNameFormat30, soundNameFormat45];
   
   
   if (enabled) {
@@ -215,7 +222,7 @@
           
           NSUInteger hourName = (thisHour + i) % 12;
           if (hourName == 0) hourName = 12;
-          alarm.soundName = [NSString stringWithFormat:[formats objectAtIndex:j], theme, hourName];
+          alarm.soundName = [NSString stringWithFormat:formats[j], theme, hourName];
           if (alarm) [self.notificationsQueue addObject:alarm];
           
           NSLog(@"firing %2lu %@ - %@", (unsigned long)anHour, alarm.fireDate, alarm.soundName);
@@ -241,63 +248,17 @@
   NSArray *notifications = self.notificationsQueue;
   if (![notifications count]) notifications = [app scheduledLocalNotifications];
   if ([notifications count]) {
-    UILocalNotification *notif = [notifications objectAtIndex:0];
+    UILocalNotification *notif = notifications[0];
     [self playSound:notif.soundName];
   }
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-  /*
-   Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-   Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
-   */
-}
-
-
 - (void)applicationDidEnterBackground:(UIApplication *)application {
   [self scheduleAllNotifications];
-  
-  
-  /*
-   Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-   If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
-   */
 }
-
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-  /*
-   Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
-   */
-}
-
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-  /*
-   Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-   */
-}
-
 
 - (void)applicationWillTerminate:(UIApplication *)application {
   [self scheduleAllNotifications];
-  /*
-   Called when the application is about to terminate.
-   See also applicationDidEnterBackground:.
-   */
 }
-
-
-#pragma mark -
-#pragma mark Memory management
-
-- (void)applicationDidReceiveMemoryWarning:(UIApplication *)application {
-  /*
-   Free up as much memory as possible by purging cached data objects that can be recreated (or reloaded from disk) later.
-   */
-}
-
-
-
 
 @end
