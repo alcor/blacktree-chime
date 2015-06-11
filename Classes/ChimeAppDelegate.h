@@ -10,14 +10,11 @@
 
 @class ChimeViewController;
 
-@interface ChimeAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-    ChimeViewController *viewController;
-  NSMutableArray *notificationsQueue;
-}
+@interface ChimeAppDelegate : NSObject <UIApplicationDelegate>
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet ChimeViewController *viewController;
+@property (nonatomic, strong) IBOutlet UIWindow *window;
+@property (nonatomic, strong) IBOutlet ChimeViewController *viewController;
+
 - (void)playTestSound;
 @end
 
