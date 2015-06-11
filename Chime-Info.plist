@@ -165,14 +165,10 @@
 			<string>%@-N.caf</string>
 		</dict>
 	</dict>
-	<key>UIPrerenderedIcon</key>
-	<true/>
 	<key>UIRequiresFullScreen</key>
 	<true/>
 	<key>UIStatusBarHidden</key>
 	<true/>
-	<key>UIStatusBarStyle</key>
-	<string>UIStatusBarStyleBlackTranslucent</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
