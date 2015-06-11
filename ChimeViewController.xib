@@ -4,37 +4,26 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <mutableArray key="AvenirNext.ttc">
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-DemiBold</string>
-            <string>AvenirNext-DemiBold</string>
-        </mutableArray>
-    </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChimeViewController">
             <connections>
                 <outlet property="bellImage" destination="48" id="50"/>
                 <outlet property="daysButton" destination="61" id="64"/>
                 <outlet property="frequencyButton" destination="31" id="36"/>
+                <outlet property="frequencyLabel" destination="18" id="XQb-qW-j8m"/>
                 <outlet property="fromButton" destination="32" id="37"/>
                 <outlet property="fromDownButton" destination="66" id="76"/>
+                <outlet property="fromLabel" destination="14" id="F9N-td-sJq"/>
                 <outlet property="fromUpButton" destination="68" id="75"/>
                 <outlet property="offLabel" destination="29" id="47"/>
                 <outlet property="onLabel" destination="28" id="46"/>
                 <outlet property="onOffButton" destination="35" id="40"/>
                 <outlet property="spinner" destination="80" id="81"/>
                 <outlet property="themeButton" destination="34" id="39"/>
+                <outlet property="themeLabel" destination="25" id="uT0-Mv-bff"/>
                 <outlet property="tillButton" destination="33" id="79"/>
                 <outlet property="tillDownButton" destination="70" id="78"/>
+                <outlet property="tillLabel" destination="15" id="kXY-YM-UgV"/>
                 <outlet property="tillUpButton" destination="71" id="77"/>
                 <outlet property="view" destination="6" id="55"/>
             </connections>
@@ -44,49 +33,41 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="chime" lineBreakMode="tailTruncation" minimumFontSize="10" id="18">
-                    <rect key="frame" x="61" y="223" width="143" height="44"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
-                    <color key="textColor" red="0.41176471110000001" green="0.66274511810000003" blue="0.17254902420000001" alpha="1" colorSpace="calibratedRGB"/>
-                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="using" lineBreakMode="tailTruncation" minimumFontSize="10" id="25">
-                    <rect key="frame" x="61" y="352" width="87" height="44"/>
+                    <rect key="frame" x="24" y="350" width="87" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
                     <color key="textColor" red="0.41176471110000001" green="0.66274511810000003" blue="0.17254902420000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.33000001311302185" contentMode="left" text="on" lineBreakMode="tailTruncation" minimumFontSize="10" id="28">
-                    <rect key="frame" x="63" y="395" width="29" height="44"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="on" lineBreakMode="tailTruncation" minimumFontSize="10" id="28">
+                    <rect key="frame" x="56" y="394" width="29" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
                     <color key="textColor" red="0.15294118230000001" green="0.34901961679999999" blue="0.074509806930000005" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.33000001311302185" contentMode="left" text="off" lineBreakMode="tailTruncation" minimumFontSize="10" id="29">
-                    <rect key="frame" x="115" y="395" width="42" height="44"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="off" lineBreakMode="tailTruncation" minimumFontSize="10" id="29">
+                    <rect key="frame" x="108" y="394" width="42" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
                     <color key="textColor" red="0.15294118230000001" green="0.34901961679999999" blue="0.074509806930000005" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </label>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.33000001311302185" contentMode="left" text="|" lineBreakMode="tailTruncation" minimumFontSize="10" id="30">
-                    <rect key="frame" x="100" y="395" width="13" height="44"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.33329999999999999" contentMode="left" text="|" lineBreakMode="tailTruncation" minimumFontSize="10" id="30">
+                    <rect key="frame" x="93" y="394" width="13" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
                     <color key="textColor" red="0.15294118230000001" green="0.34901961679999999" blue="0.074509806930000005" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </label>
-                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="31">
-                    <rect key="frame" x="128" y="223" width="192" height="44"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="31">
+                    <rect key="frame" x="97" y="218" width="223" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
-                    <state key="normal">
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="just before the hour">
                         <color key="titleColor" red="0.15294118230000001" green="0.34901961679999999" blue="0.074509806930000005" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
@@ -98,12 +79,12 @@
                         <action selector="toggleValueForSender:" destination="-1" eventType="touchUpInside" id="41"/>
                     </connections>
                 </button>
-                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="32">
-                    <rect key="frame" x="115" y="266" width="153" height="44"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="32">
+                    <rect key="frame" x="81" y="262" width="146" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
-                    <state key="normal">
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="9 am">
                         <color key="titleColor" red="0.15294118230000001" green="0.34901961679999999" blue="0.074509806930000005" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
@@ -115,12 +96,12 @@
                         <action selector="toggleValueForSender:" destination="-1" eventType="touchUpInside" id="42"/>
                     </connections>
                 </button>
-                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="33">
-                    <rect key="frame" x="96" y="309" width="172" height="44"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="33">
+                    <rect key="frame" x="55" y="306" width="172" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
-                    <state key="normal" title="oa">
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="10 pm">
                         <color key="titleColor" red="0.15294118230000001" green="0.34901961679999999" blue="0.074509806930000005" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
@@ -132,12 +113,12 @@
                         <action selector="toggleValueForSender:" destination="-1" eventType="touchUpInside" id="43"/>
                     </connections>
                 </button>
-                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="34">
-                    <rect key="frame" x="121" y="352" width="199" height="44"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="34">
+                    <rect key="frame" x="91" y="350" width="229" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
-                    <state key="normal">
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <state key="normal" title="a simple beep">
                         <color key="titleColor" red="0.15294118230000001" green="0.34901961679999999" blue="0.074509806930000005" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </state>
@@ -150,7 +131,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="35">
-                    <rect key="frame" x="20" y="395" width="300" height="44"/>
+                    <rect key="frame" x="24" y="396" width="290" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
                     <state key="normal">
@@ -164,8 +145,8 @@
                         <action selector="toggleValueForSender:" destination="-1" eventType="touchUpInside" id="45"/>
                     </connections>
                 </button>
-                <imageView userInteractionEnabled="NO" alpha="0.33000001311302185" contentMode="scaleToFill" image="bell" id="48">
-                    <rect key="frame" x="30" y="408" width="24" height="24"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="bell" id="48">
+                    <rect key="frame" x="21" y="406" width="24" height="24"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </imageView>
                 <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="61">
@@ -186,7 +167,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" alpha="0.02" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="66">
-                    <rect key="frame" x="243" y="264" width="48" height="48"/>
+                    <rect key="frame" x="206" y="260" width="48" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
@@ -204,7 +185,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" alpha="0.02" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="68">
-                    <rect key="frame" x="291" y="264" width="48" height="48"/>
+                    <rect key="frame" x="260" y="260" width="48" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
@@ -222,7 +203,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" alpha="0.02" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="70">
-                    <rect key="frame" x="243" y="308" width="48" height="48"/>
+                    <rect key="frame" x="206" y="305" width="48" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
@@ -240,11 +221,11 @@
                     </connections>
                 </button>
                 <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="gray" id="80">
-                    <rect key="frame" x="287" y="408" width="20" height="20"/>
+                    <rect key="frame" x="151" y="407" width="20" height="20"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </activityIndicatorView>
                 <button opaque="NO" alpha="0.02" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="71">
-                    <rect key="frame" x="291" y="308" width="48" height="48"/>
+                    <rect key="frame" x="260" y="305" width="48" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="22"/>
@@ -262,17 +243,25 @@
                     </connections>
                 </button>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="till" lineBreakMode="tailTruncation" minimumFontSize="10" id="15">
-                    <rect key="frame" x="61" y="309" width="42" height="44"/>
+                    <rect key="frame" x="24" y="306" width="42" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
                     <color key="textColor" red="0.41176471110000001" green="0.66274511810000003" blue="0.17254902420000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </label>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="from " lineBreakMode="tailTruncation" minimumFontSize="10" id="14" userLabel="from">
-                    <rect key="frame" x="61" y="266" width="66" height="44"/>
+                    <rect key="frame" x="24" y="262" width="66" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                    <color key="textColor" red="0.41176471110000001" green="0.66274511810000003" blue="0.17254902420000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="chime" lineBreakMode="tailTruncation" minimumFontSize="10" id="18">
+                    <rect key="frame" x="24" y="218" width="73" height="44"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
                     <color key="textColor" red="0.41176471110000001" green="0.66274511810000003" blue="0.17254902420000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </label>

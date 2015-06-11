@@ -18,6 +18,11 @@
   IBOutlet UIButton *daysButton;
   IBOutlet UILabel *onLabel;
   IBOutlet UILabel *offLabel;
+  IBOutlet UILabel *frequencyLabel;
+  IBOutlet UILabel *fromLabel;
+  IBOutlet UILabel *tillLabel;
+  IBOutlet UILabel *themeLabel;
+  IBOutlet UILabel *onOffLabel;
   IBOutlet UIImageView *bellImage;
   IBOutlet UIImageView *backgroundView;
   IBOutlet UIButton *fromUpButton;

@@ -107,17 +107,19 @@
   [UIView setAnimationDuration:0.05];
   [onLabel setAlpha:enabled ? 1.0: 0.33];
   [offLabel setAlpha:enabled ? 0.33: 1.0];
-  [bellImage setAlpha:enabled ? 1.0: 0.0];
+  [bellImage setAlpha:enabled ? 1.0: 0.33];
   [UIView commitAnimations];
 
   [UIView beginAnimations:@"" context:NULL];
   [UIView setAnimationDuration:0.5];
+  [frequencyLabel setAlpha:enabled ? 1.0 : 0.33];
   [frequencyButton setAlpha: enabled ? 1.0 : 0.33];
   [UIView commitAnimations];
 
   
   [UIView beginAnimations:@"" context:NULL];
   [UIView setAnimationDuration:0.4];
+  [fromLabel setAlpha:enabled ? 1.0 : 0.33];
   [fromButton setAlpha: enabled ? 1.0 : 0.33];
 //  [fromUpButton setAlpha:  0.33];
 //  [fromDownButton setAlpha: 0.33];  
@@ -125,6 +127,7 @@
 
   [UIView beginAnimations:@"" context:NULL];
   [UIView setAnimationDuration:0.3];
+  [tillLabel setAlpha:enabled ? 1.0 : 0.33];
   [tillButton setAlpha: enabled ? 1.0 : 0.33];
 //  [tillUpButton setAlpha:  0.33];
 //  [tillDownButton setAlpha: 0.33];  
@@ -137,7 +140,8 @@
   
   [UIView beginAnimations:@"" context:NULL];
   [UIView setAnimationDuration:0.1];
-  [themeButton setAlpha: enabled ? 1.0 : 0.33];  
+  [themeButton setAlpha: enabled ? 1.0 : 0.33];
+  [themeLabel setAlpha: enabled ? 1.0 : 0.33];
   [UIView commitAnimations];
   
 }
