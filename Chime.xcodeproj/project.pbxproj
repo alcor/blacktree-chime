@@ -908,11 +908,6 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = A7X888RRVJ;
-					};
-				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Chime" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1204,6 +1199,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1223,7 +1219,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Blacktree, Inc.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Chime_Prefix.pch;
@@ -1231,7 +1227,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.blacktree.chime;
 				PRODUCT_NAME = Chime;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11CC6B09-3503-44DA-9FD3-7FAD6A02E5A8";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1239,13 +1234,12 @@
 		7F4B565412E56E9B009E9BAC /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Blacktree, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DA5F34F7-5DE1-48B0-8125-5ACC758CFE6F";
 				SDKROOT = iphoneos;
 			};
 			name = Distribution;
@@ -1257,7 +1251,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Blacktree, Inc.";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Chime_Prefix.pch;
@@ -1265,7 +1259,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.blacktree.chime;
 				PRODUCT_NAME = Chime;
 				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "11CC6B09-3503-44DA-9FD3-7FAD6A02E5A8";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Distribution;
