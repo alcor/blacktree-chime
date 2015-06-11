@@ -12,15 +12,12 @@
 
 
 @interface ChimeAppDelegate ()
+@property (nonatomic, strong) NSMutableArray *notificationsQueue;
 - (void)playSound:(NSString *)soundName;
 - (void)updateNotifications;
 @end
 
 @implementation ChimeAppDelegate
-
-@synthesize window;
-@synthesize viewController;
-
 
 #pragma mark -
 #pragma mark Application lifecycle
@@ -36,10 +33,10 @@
   
 }
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-  notificationsQueue = [[NSMutableArray alloc] initWithCapacity:12];
+  self.notificationsQueue = [[NSMutableArray alloc] initWithCapacity:12];
   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(defaultsChanged:) name:NSUserDefaultsDidChangeNotification object:nil];
   [self updateNotifications];
-  self.window.rootViewController = viewController;
+  self.window.rootViewController = self.viewController;
   [self.window makeKeyAndVisible];
   
   return YES;
@@ -75,7 +72,7 @@
   }
 }
 - (void)disposeSound:(NSNumber *)number {
-  AudioServicesDisposeSystemSoundID ([number integerValue]);
+  AudioServicesDisposeSystemSoundID ((unsigned int)[number integerValue]);
 }
 - (BOOL)hour:(NSUInteger)anHour isBetween:(NSUInteger)fromTime and:(NSUInteger)tillTime {
   return tillTime > fromTime ? tillTime >= anHour && anHour >= fromTime  // 22 >= h >= 9
@@ -83,11 +80,11 @@
 }
 
 - (void)scheduleOneNotification {
-  if ([notificationsQueue count]) {
-    UILocalNotification *notif = [notificationsQueue objectAtIndex:0];
+  if ([self.notificationsQueue count]) {
+    UILocalNotification *notif = [self.notificationsQueue objectAtIndex:0];
     NSDate *fireDate = [notif fireDate];
     
-    NSCalendar *gregorian = [[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar] autorelease];
+    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
 
     // Shift weekend appts forward if needed
     //NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -96,7 +93,7 @@
       NSUInteger day = [[gregorian components:NSWeekdayCalendarUnit fromDate:[notif fireDate]] weekday];
       if (day == 1 || day == 7) {
         NSLog(@"        Shifting day off weekend %@", fireDate);
-        NSDateComponents *components = [[[NSDateComponents alloc] init] autorelease];
+        NSDateComponents *components = [[NSDateComponents alloc] init];
         [components setDay:day == 7 ? 2 : 1];
         fireDate = [gregorian dateByAddingComponents:components toDate:fireDate options:0];        
       }
@@ -105,7 +102,7 @@
     BOOL earlierThanNow = [fireDate compare:[NSDate dateWithTimeIntervalSinceNow:5.0]] == NSOrderedAscending;
     if (earlierThanNow) {
       NSLog(@"        Shifting past appt forward %@", fireDate);
-      NSDateComponents *components = [[[NSDateComponents alloc] init] autorelease];
+      NSDateComponents *components = [[NSDateComponents alloc] init];
       [components setDay:1];
       fireDate = [gregorian dateByAddingComponents:components toDate:fireDate options:0];
     }
@@ -117,14 +114,14 @@
     
     UIApplication* app = [UIApplication sharedApplication];
     [app scheduleLocalNotification:notif];
-    [notificationsQueue removeObject:notif]; 
+    [self.notificationsQueue removeObject:notif];
   }
 }
 
 - (void)scheduleAllNotifications {
   [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(scheduleOneNotificationAndLoop) object:nil];
-  if ([notificationsQueue count]) {
-    while ([notificationsQueue count]) {
+  if ([self.notificationsQueue count]) {
+    while ([self.notificationsQueue count]) {
       [self scheduleOneNotification];
     }
     NSLog(@"All alerts scheduled");
@@ -132,14 +129,14 @@
 }
 
 - (void)scheduleOneNotificationAndLoop {
-  [viewController setSpinnerVisible:YES];
+  [self.viewController setSpinnerVisible:YES];
   [self scheduleOneNotification];
   
-  if ([notificationsQueue count]) {
+  if ([self.notificationsQueue count]) {
     [self performSelector:@selector(scheduleOneNotificationAndLoop) withObject:nil afterDelay:0.0]; 
   } else {
     NSLog(@"All alerts scheduled");
-    [viewController setSpinnerVisible:NO];
+    [self.viewController setSpinnerVisible:NO];
     
   }
 }
@@ -147,7 +144,7 @@
 - (void)updateNotifications {
   
   [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(scheduleOneNotificationAndLoop) object:nil];
-  [notificationsQueue removeAllObjects];
+  [self.notificationsQueue removeAllObjects];
   NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
   
   
@@ -176,15 +173,15 @@
   
   if (enabled) {
     NSDate *now = [NSDate date];
-    NSCalendar *gregorian = [[[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar] autorelease];
+    NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     NSDateComponents *dateComponents = [gregorian components:NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit | NSWeekdayCalendarUnit | NSHourCalendarUnit fromDate:now];
     NSUInteger thisHour = [dateComponents hour];
     [dateComponents setHour:thisHour];
     [dateComponents setTimeZone:[NSTimeZone defaultTimeZone]];
     NSDate *baseFireDate = [gregorian dateFromComponents:dateComponents];
     
-    NSLog(@"Scheduling chimes from %d to %d with %@", fromTime, tillTime, theme);
-    NSDateComponents *hourComponents = [[[NSDateComponents alloc] init] autorelease];
+    NSLog(@"Scheduling chimes from %lu to %lu with %@", (unsigned long)fromTime, (unsigned long)tillTime, theme);
+    NSDateComponents *hourComponents = [[NSDateComponents alloc] init];
     
     BOOL halfHours = frequency >= 2;
     BOOL quarterHours = frequency >= 3;
@@ -206,7 +203,7 @@
             continue;
           }
           
-          UILocalNotification *alarm = [[[UILocalNotification alloc] init] autorelease];
+          UILocalNotification *alarm = [[UILocalNotification alloc] init];
           [hourComponents setHour:i];
           [hourComponents setMinute:j * 15];
           alarm.fireDate = [gregorian dateByAddingComponents:hourComponents toDate:baseFireDate options:0];
@@ -219,9 +216,9 @@
           NSUInteger hourName = (thisHour + i) % 12;
           if (hourName == 0) hourName = 12;
           alarm.soundName = [NSString stringWithFormat:[formats objectAtIndex:j], theme, hourName];
-          if (alarm) [notificationsQueue addObject:alarm];
+          if (alarm) [self.notificationsQueue addObject:alarm];
           
-          NSLog(@"firing %2d %@ - %@", anHour, alarm.fireDate, alarm.soundName);
+          NSLog(@"firing %2lu %@ - %@", (unsigned long)anHour, alarm.fireDate, alarm.soundName);
           
         }
       } else {
@@ -241,7 +238,7 @@
 - (void)playTestSound {
   UIApplication* app = [UIApplication sharedApplication];
   
-  NSArray *notifications = notificationsQueue;
+  NSArray *notifications = self.notificationsQueue;
   if (![notifications count]) notifications = [app scheduledLocalNotifications];
   if ([notifications count]) {
     UILocalNotification *notif = [notifications objectAtIndex:0];
@@ -301,11 +298,6 @@
 }
 
 
-- (void)dealloc {
-  [viewController release];
-  [window release];
-  [super dealloc];
-}
 
 
 @end

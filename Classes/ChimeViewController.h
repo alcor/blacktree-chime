@@ -27,7 +27,6 @@
   IBOutlet UIActivityIndicatorView *spinner;
 }
 - (IBAction)toggleValueForSender:(id)sender;
-- (void)log:(NSString *)string;
 - (void)setSpinnerVisible:(BOOL)visible;
 @end
 
