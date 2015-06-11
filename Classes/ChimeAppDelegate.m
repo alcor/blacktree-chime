@@ -37,6 +37,7 @@
                                            selector:@selector(defaultsChanged:)
                                                name:NSUserDefaultsDidChangeNotification
                                              object:nil];
+  [self registerForNotificationsPermissions:application];
   [self updateNotifications];
   self.window.rootViewController = self.viewController;
   [self.window makeKeyAndVisible];
@@ -144,6 +145,18 @@
   } else {
     NSLog(@"All alerts scheduled");
     [self.viewController setSpinnerVisible:NO];
+  }
+}
+
+// Only needed for iOS 8+ and only registers for push notifications. Will result in a permissions
+// dialog.
+- (void)registerForNotificationsPermissions:(UIApplication *)application {
+  if ([application respondsToSelector:@selector(registerUserNotificationSettings:)]) {
+    UIUserNotificationSettings* notificationSettings = [application currentUserNotificationSettings];
+    if (!(notificationSettings.types & UIUserNotificationTypeSound)) {
+      notificationSettings = [UIUserNotificationSettings settingsForTypes:UIUserNotificationTypeSound categories:nil];
+      [application registerUserNotificationSettings:notificationSettings];
+    }
   }
 }
 
