@@ -30,8 +30,14 @@
   IBOutlet UIButton *tillUpButton;
   IBOutlet UIButton *tillDownButton;
   IBOutlet UIActivityIndicatorView *spinner;
+  IBOutlet UIView *errorView;
+  IBOutlet UIButton *settingsButton;
+
+
 }
 - (IBAction)toggleValueForSender:(id)sender;
 - (void)setSpinnerVisible:(BOOL)visible;
+- (IBAction)openSettings:(id)sender;
+- (void)updateValues;
 @end
 

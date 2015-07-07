@@ -38,11 +38,15 @@
                                                name:NSUserDefaultsDidChangeNotification
                                              object:nil];
   [self registerForNotificationsPermissions:application];
-  [self updateNotifications];
   self.window.rootViewController = self.viewController;
   [self.window makeKeyAndVisible];
   
   return YES;
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
+  [self updateNotifications];
+  [(ChimeViewController *)self.window.rootViewController updateValues];
 }
 
 - (void)defaultsChanged:(NSNotification *)notif {

@@ -74,6 +74,15 @@
     [spinner stopAnimating]; 
   }
 }
+
+- (IBAction)openSettings:(id)sender {
+  BOOL canOpenSettings = (&UIApplicationOpenSettingsURLString != NULL);
+  if (canOpenSettings) {
+    NSURL *url = [NSURL URLWithString:UIApplicationOpenSettingsURLString];
+    [[UIApplication sharedApplication] openURL:url];
+  }
+}
+
 - (void)updateValues {
 
   NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
@@ -102,6 +111,18 @@
                forState:UIControlStateNormal];
   
   NSInteger enabled = [defaults boolForKey:@"enabled"];
+  
+  
+  if ([[UIApplication sharedApplication] respondsToSelector:@selector(currentUserNotificationSettings)]){
+    
+    UIUserNotificationSettings *grantedSettings = [[UIApplication sharedApplication] currentUserNotificationSettings];
+    
+    
+    [errorView setHidden:(grantedSettings.types & UIUserNotificationTypeSound)];
+    if (enabled) enabled = (grantedSettings.types & UIUserNotificationTypeSound);
+  }
+  
+  
   
   [UIView beginAnimations:@"" context:NULL];
   [UIView setAnimationDuration:0.05];
@@ -143,6 +164,9 @@
   [themeButton setAlpha: enabled ? 1.0 : 0.33];
   [themeLabel setAlpha: enabled ? 1.0 : 0.33];
   [UIView commitAnimations];
+  
+
+
 }
 
 - (void)viewDidLoad {

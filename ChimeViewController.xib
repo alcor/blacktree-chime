@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8121.17" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8101.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ChimeViewController">
             <connections>
                 <outlet property="bellImage" destination="48" id="50"/>
                 <outlet property="daysButton" destination="61" id="64"/>
+                <outlet property="errorView" destination="Clo-Yu-pxc" id="pgy-cX-lSt"/>
                 <outlet property="frequencyButton" destination="31" id="36"/>
                 <outlet property="frequencyLabel" destination="18" id="XQb-qW-j8m"/>
                 <outlet property="fromButton" destination="32" id="37"/>
@@ -18,6 +19,7 @@
                 <outlet property="offLabel" destination="29" id="47"/>
                 <outlet property="onLabel" destination="28" id="46"/>
                 <outlet property="onOffButton" destination="35" id="40"/>
+                <outlet property="settingsButton" destination="Whc-Xu-zo3" id="0eX-M3-dUz"/>
                 <outlet property="spinner" destination="80" id="81"/>
                 <outlet property="themeButton" destination="34" id="39"/>
                 <outlet property="themeLabel" destination="25" id="uT0-Mv-bff"/>
@@ -265,6 +267,46 @@
                     <color key="textColor" red="0.41176471110000001" green="0.66274511810000003" blue="0.17254902420000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </label>
+                <view hidden="YES" contentMode="scaleToFill" id="Clo-Yu-pxc">
+                    <rect key="frame" x="0.0" y="114" width="320" height="76"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="please enable notification" lineBreakMode="tailTruncation" minimumFontSize="10" id="Cio-oG-yCY">
+                            <rect key="frame" x="24" y="0.0" width="300" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <color key="textColor" red="0.41176471110000001" green="0.66274511810000003" blue="0.17254902420000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="sounds in" lineBreakMode="tailTruncation" minimumFontSize="10" id="ixM-7R-Xkj">
+                            <rect key="frame" x="24" y="32" width="180" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <color key="textColor" red="0.41176471110000001" green="0.66274511810000003" blue="0.17254902420000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Whc-Xu-zo3">
+                            <rect key="frame" x="133" y="32" width="200.5" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                            <state key="normal" title="system settings">
+                                <color key="titleColor" red="0.15294118230000001" green="0.34901961679999999" blue="0.074509806930000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="highlighted">
+                                <color key="titleColor" white="0.0" alpha="0.33000000000000002" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="openSettings:" destination="-1" eventType="touchUpInside" id="doN-6O-DSJ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <color key="backgroundColor" red="0.72549021244049072" green="0.87058824300765991" blue="0.56862747669219971" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
@@ -276,4 +318,9 @@
         <image name="ic_chevron_left" width="24" height="24"/>
         <image name="ic_chevron_right" width="24" height="24"/>
     </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
 </document>
